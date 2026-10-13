@@ -1,0 +1,5347 @@
+{
+  "abilityshield": {
+    "id": "abilityshield",
+    "name": "Ability Shield",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "abomasite": {
+    "id": "abomasite",
+    "name": "Abomasite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "absolite": {
+    "id": "absolite",
+    "name": "Absolite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "absolitez": {
+    "id": "absolitez",
+    "name": "Absolite Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "absorbbulb": {
+    "id": "absorbbulb",
+    "name": "Absorb Bulb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "adamantcrystal": {
+    "id": "adamantcrystal",
+    "name": "Adamant Crystal",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Dialga-Origin"
+    ],
+    "isChoice": false,
+    "isPast": false
+  },
+  "adamantorb": {
+    "id": "adamantorb",
+    "name": "Adamant Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "adrenalineorb": {
+    "id": "adrenalineorb",
+    "name": "Adrenaline Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "aerodactylite": {
+    "id": "aerodactylite",
+    "name": "Aerodactylite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "aggronite": {
+    "id": "aggronite",
+    "name": "Aggronite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "aguavberry": {
+    "id": "aguavberry",
+    "name": "Aguav Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "airballoon": {
+    "id": "airballoon",
+    "name": "Air Balloon",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "alakazite": {
+    "id": "alakazite",
+    "name": "Alakazite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "aloraichiumz": {
+    "id": "aloraichiumz",
+    "name": "Aloraichium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Raichu-Alola"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "altarianite": {
+    "id": "altarianite",
+    "name": "Altarianite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ampharosite": {
+    "id": "ampharosite",
+    "name": "Ampharosite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "apicotberry": {
+    "id": "apicotberry",
+    "name": "Apicot Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "armorfossil": {
+    "id": "armorfossil",
+    "name": "Armor Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "aspearberry": {
+    "id": "aspearberry",
+    "name": "Aspear Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "assaultvest": {
+    "id": "assaultvest",
+    "name": "Assault Vest",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "audinite": {
+    "id": "audinite",
+    "name": "Audinite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "auspiciousarmor": {
+    "id": "auspiciousarmor",
+    "name": "Auspicious Armor",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "babiriberry": {
+    "id": "babiriberry",
+    "name": "Babiri Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "banettite": {
+    "id": "banettite",
+    "name": "Banettite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "barbaracite": {
+    "id": "barbaracite",
+    "name": "Barbaracite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "baxcalibrite": {
+    "id": "baxcalibrite",
+    "name": "Baxcalibrite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "beastball": {
+    "id": "beastball",
+    "name": "Beast Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "beedrillite": {
+    "id": "beedrillite",
+    "name": "Beedrillite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "belueberry": {
+    "id": "belueberry",
+    "name": "Belue Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "berryjuice": {
+    "id": "berryjuice",
+    "name": "Berry Juice",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "berrysweet": {
+    "id": "berrysweet",
+    "name": "Berry Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "bignugget": {
+    "id": "bignugget",
+    "name": "Big Nugget",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "bigroot": {
+    "id": "bigroot",
+    "name": "Big Root",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "bindingband": {
+    "id": "bindingband",
+    "name": "Binding Band",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blackbelt": {
+    "id": "blackbelt",
+    "name": "Black Belt",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blackglasses": {
+    "id": "blackglasses",
+    "name": "Black Glasses",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blacksludge": {
+    "id": "blacksludge",
+    "name": "Black Sludge",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blastoisinite": {
+    "id": "blastoisinite",
+    "name": "Blastoisinite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blazikenite": {
+    "id": "blazikenite",
+    "name": "Blazikenite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blueorb": {
+    "id": "blueorb",
+    "name": "Blue Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Kyogre"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "blukberry": {
+    "id": "blukberry",
+    "name": "Bluk Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "blunderpolicy": {
+    "id": "blunderpolicy",
+    "name": "Blunder Policy",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "boosterenergy": {
+    "id": "boosterenergy",
+    "name": "Booster Energy",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "bottlecap": {
+    "id": "bottlecap",
+    "name": "Bottle Cap",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "brightpowder": {
+    "id": "brightpowder",
+    "name": "Bright Powder",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "buggem": {
+    "id": "buggem",
+    "name": "Bug Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "buginiumz": {
+    "id": "buginiumz",
+    "name": "Buginium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "bugmemory": {
+    "id": "bugmemory",
+    "name": "Bug Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Bug"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "burndrive": {
+    "id": "burndrive",
+    "name": "Burn Drive",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Genesect-Burn"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "cameruptite": {
+    "id": "cameruptite",
+    "name": "Cameruptite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cellbattery": {
+    "id": "cellbattery",
+    "name": "Cell Battery",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chandelurite": {
+    "id": "chandelurite",
+    "name": "Chandelurite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "charcoal": {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "charizarditex": {
+    "id": "charizarditex",
+    "name": "Charizardite X",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "charizarditey": {
+    "id": "charizarditey",
+    "name": "Charizardite Y",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chartiberry": {
+    "id": "chartiberry",
+    "name": "Charti Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cheriberry": {
+    "id": "cheriberry",
+    "name": "Cheri Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cherishball": {
+    "id": "cherishball",
+    "name": "Cherish Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chesnaughtite": {
+    "id": "chesnaughtite",
+    "name": "Chesnaughtite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chestoberry": {
+    "id": "chestoberry",
+    "name": "Chesto Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chilanberry": {
+    "id": "chilanberry",
+    "name": "Chilan Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chilldrive": {
+    "id": "chilldrive",
+    "name": "Chill Drive",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Genesect-Chill"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "chimechite": {
+    "id": "chimechite",
+    "name": "Chimechite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "chippedpot": {
+    "id": "chippedpot",
+    "name": "Chipped Pot",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "choiceband": {
+    "id": "choiceband",
+    "name": "Choice Band",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": true,
+    "isPast": false
+  },
+  "choicescarf": {
+    "id": "choicescarf",
+    "name": "Choice Scarf",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": true,
+    "isPast": false
+  },
+  "choicespecs": {
+    "id": "choicespecs",
+    "name": "Choice Specs",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": true,
+    "isPast": false
+  },
+  "chopleberry": {
+    "id": "chopleberry",
+    "name": "Chople Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "clawfossil": {
+    "id": "clawfossil",
+    "name": "Claw Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "clearamulet": {
+    "id": "clearamulet",
+    "name": "Clear Amulet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "clefablite": {
+    "id": "clefablite",
+    "name": "Clefablite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cloversweet": {
+    "id": "cloversweet",
+    "name": "Clover Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cobaberry": {
+    "id": "cobaberry",
+    "name": "Coba Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "colburberry": {
+    "id": "colburberry",
+    "name": "Colbur Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cornerstonemask": {
+    "id": "cornerstonemask",
+    "name": "Cornerstone Mask",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "cornnberry": {
+    "id": "cornnberry",
+    "name": "Cornn Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "coverfossil": {
+    "id": "coverfossil",
+    "name": "Cover Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "covertcloak": {
+    "id": "covertcloak",
+    "name": "Covert Cloak",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "crabominite": {
+    "id": "crabominite",
+    "name": "Crabominite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "crackedpot": {
+    "id": "crackedpot",
+    "name": "Cracked Pot",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "custapberry": {
+    "id": "custapberry",
+    "name": "Custap Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "damprock": {
+    "id": "damprock",
+    "name": "Damp Rock",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "darkgem": {
+    "id": "darkgem",
+    "name": "Dark Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "darkiniumz": {
+    "id": "darkiniumz",
+    "name": "Darkinium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "darkmemory": {
+    "id": "darkmemory",
+    "name": "Dark Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Dark"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "darkranite": {
+    "id": "darkranite",
+    "name": "Darkranite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dawnstone": {
+    "id": "dawnstone",
+    "name": "Dawn Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "decidiumz": {
+    "id": "decidiumz",
+    "name": "Decidium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Decidueye"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "deepseascale": {
+    "id": "deepseascale",
+    "name": "Deep Sea Scale",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "deepseatooth": {
+    "id": "deepseatooth",
+    "name": "Deep Sea Tooth",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "delphoxite": {
+    "id": "delphoxite",
+    "name": "Delphoxite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "destinyknot": {
+    "id": "destinyknot",
+    "name": "Destiny Knot",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "diancite": {
+    "id": "diancite",
+    "name": "Diancite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "diveball": {
+    "id": "diveball",
+    "name": "Dive Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "domefossil": {
+    "id": "domefossil",
+    "name": "Dome Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dousedrive": {
+    "id": "dousedrive",
+    "name": "Douse Drive",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Genesect-Douse"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "dracoplate": {
+    "id": "dracoplate",
+    "name": "Draco Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dragalgite": {
+    "id": "dragalgite",
+    "name": "Dragalgite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dragonfang": {
+    "id": "dragonfang",
+    "name": "Dragon Fang",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dragongem": {
+    "id": "dragongem",
+    "name": "Dragon Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "dragoninite": {
+    "id": "dragoninite",
+    "name": "Dragoninite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dragoniumz": {
+    "id": "dragoniumz",
+    "name": "Dragonium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "dragonmemory": {
+    "id": "dragonmemory",
+    "name": "Dragon Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Dragon"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "dragonscale": {
+    "id": "dragonscale",
+    "name": "Dragon Scale",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "drampanite": {
+    "id": "drampanite",
+    "name": "Drampanite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dreadplate": {
+    "id": "dreadplate",
+    "name": "Dread Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dreamball": {
+    "id": "dreamball",
+    "name": "Dream Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "dubiousdisc": {
+    "id": "dubiousdisc",
+    "name": "Dubious Disc",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "durinberry": {
+    "id": "durinberry",
+    "name": "Durin Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "duskball": {
+    "id": "duskball",
+    "name": "Dusk Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "duskstone": {
+    "id": "duskstone",
+    "name": "Dusk Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "earthplate": {
+    "id": "earthplate",
+    "name": "Earth Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "eelektrossite": {
+    "id": "eelektrossite",
+    "name": "Eelektrossite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "eeviumz": {
+    "id": "eeviumz",
+    "name": "Eevium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Eevee"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "ejectbutton": {
+    "id": "ejectbutton",
+    "name": "Eject Button",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ejectpack": {
+    "id": "ejectpack",
+    "name": "Eject Pack",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "electirizer": {
+    "id": "electirizer",
+    "name": "Electirizer",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "electricgem": {
+    "id": "electricgem",
+    "name": "Electric Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "electricmemory": {
+    "id": "electricmemory",
+    "name": "Electric Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Electric"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "electricseed": {
+    "id": "electricseed",
+    "name": "Electric Seed",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "electriumz": {
+    "id": "electriumz",
+    "name": "Electrium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "emboarite": {
+    "id": "emboarite",
+    "name": "Emboarite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "enigmaberry": {
+    "id": "enigmaberry",
+    "name": "Enigma Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "eviolite": {
+    "id": "eviolite",
+    "name": "Eviolite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "excadrite": {
+    "id": "excadrite",
+    "name": "Excadrite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "expertbelt": {
+    "id": "expertbelt",
+    "name": "Expert Belt",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fairiumz": {
+    "id": "fairiumz",
+    "name": "Fairium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "fairyfeather": {
+    "id": "fairyfeather",
+    "name": "Fairy Feather",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fairygem": {
+    "id": "fairygem",
+    "name": "Fairy Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "fairymemory": {
+    "id": "fairymemory",
+    "name": "Fairy Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Fairy"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "falinksite": {
+    "id": "falinksite",
+    "name": "Falinksite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fastball": {
+    "id": "fastball",
+    "name": "Fast Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "feraligite": {
+    "id": "feraligite",
+    "name": "Feraligite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fightinggem": {
+    "id": "fightinggem",
+    "name": "Fighting Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "fightingmemory": {
+    "id": "fightingmemory",
+    "name": "Fighting Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Fighting"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "fightiniumz": {
+    "id": "fightiniumz",
+    "name": "Fightinium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "figyberry": {
+    "id": "figyberry",
+    "name": "Figy Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "firegem": {
+    "id": "firegem",
+    "name": "Fire Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "firememory": {
+    "id": "firememory",
+    "name": "Fire Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Fire"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "firestone": {
+    "id": "firestone",
+    "name": "Fire Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "firiumz": {
+    "id": "firiumz",
+    "name": "Firium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "fistplate": {
+    "id": "fistplate",
+    "name": "Fist Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "flameorb": {
+    "id": "flameorb",
+    "name": "Flame Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "flameplate": {
+    "id": "flameplate",
+    "name": "Flame Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "floatstone": {
+    "id": "floatstone",
+    "name": "Float Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "floettite": {
+    "id": "floettite",
+    "name": "Floettite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "flowersweet": {
+    "id": "flowersweet",
+    "name": "Flower Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "flyinggem": {
+    "id": "flyinggem",
+    "name": "Flying Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "flyingmemory": {
+    "id": "flyingmemory",
+    "name": "Flying Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Flying"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "flyiniumz": {
+    "id": "flyiniumz",
+    "name": "Flyinium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "focusband": {
+    "id": "focusband",
+    "name": "Focus Band",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "focussash": {
+    "id": "focussash",
+    "name": "Focus Sash",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fossilizedbird": {
+    "id": "fossilizedbird",
+    "name": "Fossilized Bird",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fossilizeddino": {
+    "id": "fossilizeddino",
+    "name": "Fossilized Dino",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fossilizeddrake": {
+    "id": "fossilizeddrake",
+    "name": "Fossilized Drake",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fossilizedfish": {
+    "id": "fossilizedfish",
+    "name": "Fossilized Fish",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "friendball": {
+    "id": "friendball",
+    "name": "Friend Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "froslassite": {
+    "id": "froslassite",
+    "name": "Froslassite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "fullincense": {
+    "id": "fullincense",
+    "name": "Full Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "galaricacuff": {
+    "id": "galaricacuff",
+    "name": "Galarica Cuff",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "galaricawreath": {
+    "id": "galaricawreath",
+    "name": "Galarica Wreath",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "galladite": {
+    "id": "galladite",
+    "name": "Galladite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ganlonberry": {
+    "id": "ganlonberry",
+    "name": "Ganlon Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "garchompite": {
+    "id": "garchompite",
+    "name": "Garchompite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "garchompitez": {
+    "id": "garchompitez",
+    "name": "Garchompite Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "gardevoirite": {
+    "id": "gardevoirite",
+    "name": "Gardevoirite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "gengarite": {
+    "id": "gengarite",
+    "name": "Gengarite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ghostgem": {
+    "id": "ghostgem",
+    "name": "Ghost Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "ghostiumz": {
+    "id": "ghostiumz",
+    "name": "Ghostium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "ghostmemory": {
+    "id": "ghostmemory",
+    "name": "Ghost Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Ghost"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "glalitite": {
+    "id": "glalitite",
+    "name": "Glalitite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "glimmoranite": {
+    "id": "glimmoranite",
+    "name": "Glimmoranite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "goldbottlecap": {
+    "id": "goldbottlecap",
+    "name": "Gold Bottle Cap",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "golisopite": {
+    "id": "golisopite",
+    "name": "Golisopite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "golurkite": {
+    "id": "golurkite",
+    "name": "Golurkite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "grassgem": {
+    "id": "grassgem",
+    "name": "Grass Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "grassiumz": {
+    "id": "grassiumz",
+    "name": "Grassium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "grassmemory": {
+    "id": "grassmemory",
+    "name": "Grass Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Grass"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "grassyseed": {
+    "id": "grassyseed",
+    "name": "Grassy Seed",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "greatball": {
+    "id": "greatball",
+    "name": "Great Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "greninjite": {
+    "id": "greninjite",
+    "name": "Greninjite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "grepaberry": {
+    "id": "grepaberry",
+    "name": "Grepa Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "gripclaw": {
+    "id": "gripclaw",
+    "name": "Grip Claw",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "griseouscore": {
+    "id": "griseouscore",
+    "name": "Griseous Core",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Giratina-Origin"
+    ],
+    "isChoice": false,
+    "isPast": false
+  },
+  "griseousorb": {
+    "id": "griseousorb",
+    "name": "Griseous Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "groundgem": {
+    "id": "groundgem",
+    "name": "Ground Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "groundiumz": {
+    "id": "groundiumz",
+    "name": "Groundium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "groundmemory": {
+    "id": "groundmemory",
+    "name": "Ground Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Ground"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "gyaradosite": {
+    "id": "gyaradosite",
+    "name": "Gyaradosite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "habanberry": {
+    "id": "habanberry",
+    "name": "Haban Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "hardstone": {
+    "id": "hardstone",
+    "name": "Hard Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "hawluchanite": {
+    "id": "hawluchanite",
+    "name": "Hawluchanite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "healball": {
+    "id": "healball",
+    "name": "Heal Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "hearthflamemask": {
+    "id": "hearthflamemask",
+    "name": "Hearthflame Mask",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "heatranite": {
+    "id": "heatranite",
+    "name": "Heatranite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "heatrock": {
+    "id": "heatrock",
+    "name": "Heat Rock",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "heavyball": {
+    "id": "heavyball",
+    "name": "Heavy Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "heavydutyboots": {
+    "id": "heavydutyboots",
+    "name": "Heavy-Duty Boots",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "helixfossil": {
+    "id": "helixfossil",
+    "name": "Helix Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "heracronite": {
+    "id": "heracronite",
+    "name": "Heracronite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "hondewberry": {
+    "id": "hondewberry",
+    "name": "Hondew Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "houndoominite": {
+    "id": "houndoominite",
+    "name": "Houndoominite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "iapapaberry": {
+    "id": "iapapaberry",
+    "name": "Iapapa Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "icegem": {
+    "id": "icegem",
+    "name": "Ice Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "icememory": {
+    "id": "icememory",
+    "name": "Ice Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Ice"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "icestone": {
+    "id": "icestone",
+    "name": "Ice Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "icicleplate": {
+    "id": "icicleplate",
+    "name": "Icicle Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "iciumz": {
+    "id": "iciumz",
+    "name": "Icium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "icyrock": {
+    "id": "icyrock",
+    "name": "Icy Rock",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "inciniumz": {
+    "id": "inciniumz",
+    "name": "Incinium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Incineroar"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "insectplate": {
+    "id": "insectplate",
+    "name": "Insect Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ironball": {
+    "id": "ironball",
+    "name": "Iron Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ironplate": {
+    "id": "ironplate",
+    "name": "Iron Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "jabocaberry": {
+    "id": "jabocaberry",
+    "name": "Jaboca Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "jawfossil": {
+    "id": "jawfossil",
+    "name": "Jaw Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "kangaskhanite": {
+    "id": "kangaskhanite",
+    "name": "Kangaskhanite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "kasibberry": {
+    "id": "kasibberry",
+    "name": "Kasib Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "kebiaberry": {
+    "id": "kebiaberry",
+    "name": "Kebia Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "keeberry": {
+    "id": "keeberry",
+    "name": "Kee Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "kelpsyberry": {
+    "id": "kelpsyberry",
+    "name": "Kelpsy Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "kingsrock": {
+    "id": "kingsrock",
+    "name": "King's Rock",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "kommoniumz": {
+    "id": "kommoniumz",
+    "name": "Kommonium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Kommo-o",
+      "Kommo-o-Totem"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "laggingtail": {
+    "id": "laggingtail",
+    "name": "Lagging Tail",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lansatberry": {
+    "id": "lansatberry",
+    "name": "Lansat Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "latiasite": {
+    "id": "latiasite",
+    "name": "Latiasite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "latiosite": {
+    "id": "latiosite",
+    "name": "Latiosite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "laxincense": {
+    "id": "laxincense",
+    "name": "Lax Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "leafstone": {
+    "id": "leafstone",
+    "name": "Leaf Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "leek": {
+    "id": "leek",
+    "name": "Leek",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "leftovers": {
+    "id": "leftovers",
+    "name": "Leftovers",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "leppaberry": {
+    "id": "leppaberry",
+    "name": "Leppa Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "levelball": {
+    "id": "levelball",
+    "name": "Level Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "liechiberry": {
+    "id": "liechiberry",
+    "name": "Liechi Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lifeorb": {
+    "id": "lifeorb",
+    "name": "Life Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lightball": {
+    "id": "lightball",
+    "name": "Light Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lightclay": {
+    "id": "lightclay",
+    "name": "Light Clay",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "loadeddice": {
+    "id": "loadeddice",
+    "name": "Loaded Dice",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lopunnite": {
+    "id": "lopunnite",
+    "name": "Lopunnite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "loveball": {
+    "id": "loveball",
+    "name": "Love Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lovesweet": {
+    "id": "lovesweet",
+    "name": "Love Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lucarionite": {
+    "id": "lucarionite",
+    "name": "Lucarionite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lucarionitez": {
+    "id": "lucarionitez",
+    "name": "Lucarionite Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "luckypunch": {
+    "id": "luckypunch",
+    "name": "Lucky Punch",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lumberry": {
+    "id": "lumberry",
+    "name": "Lum Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "luminousmoss": {
+    "id": "luminousmoss",
+    "name": "Luminous Moss",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lunaliumz": {
+    "id": "lunaliumz",
+    "name": "Lunalium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Lunala",
+      "Necrozma-Dawn-Wings"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "lureball": {
+    "id": "lureball",
+    "name": "Lure Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lustrousglobe": {
+    "id": "lustrousglobe",
+    "name": "Lustrous Globe",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Palkia-Origin"
+    ],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lustrousorb": {
+    "id": "lustrousorb",
+    "name": "Lustrous Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "luxuryball": {
+    "id": "luxuryball",
+    "name": "Luxury Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "lycaniumz": {
+    "id": "lycaniumz",
+    "name": "Lycanium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Lycanroc",
+      "Lycanroc-Midnight",
+      "Lycanroc-Dusk"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "machobrace": {
+    "id": "machobrace",
+    "name": "Macho Brace",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "magearnite": {
+    "id": "magearnite",
+    "name": "Magearnite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "magmarizer": {
+    "id": "magmarizer",
+    "name": "Magmarizer",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "magnet": {
+    "id": "magnet",
+    "name": "Magnet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "magoberry": {
+    "id": "magoberry",
+    "name": "Mago Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "magostberry": {
+    "id": "magostberry",
+    "name": "Magost Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mail": {
+    "id": "mail",
+    "name": "Mail",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "malamarite": {
+    "id": "malamarite",
+    "name": "Malamarite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "maliciousarmor": {
+    "id": "maliciousarmor",
+    "name": "Malicious Armor",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "manectite": {
+    "id": "manectite",
+    "name": "Manectite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "marangaberry": {
+    "id": "marangaberry",
+    "name": "Maranga Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "marshadiumz": {
+    "id": "marshadiumz",
+    "name": "Marshadium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Marshadow"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "masterball": {
+    "id": "masterball",
+    "name": "Master Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "masterpieceteacup": {
+    "id": "masterpieceteacup",
+    "name": "Masterpiece Teacup",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mawilite": {
+    "id": "mawilite",
+    "name": "Mawilite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "meadowplate": {
+    "id": "meadowplate",
+    "name": "Meadow Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "medichamite": {
+    "id": "medichamite",
+    "name": "Medichamite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "meganiumite": {
+    "id": "meganiumite",
+    "name": "Meganiumite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mentalherb": {
+    "id": "mentalherb",
+    "name": "Mental Herb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "meowsticite": {
+    "id": "meowsticite",
+    "name": "Meowsticite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "metagrossite": {
+    "id": "metagrossite",
+    "name": "Metagrossite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "metalalloy": {
+    "id": "metalalloy",
+    "name": "Metal Alloy",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "metalcoat": {
+    "id": "metalcoat",
+    "name": "Metal Coat",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "metalpowder": {
+    "id": "metalpowder",
+    "name": "Metal Powder",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "metronome": {
+    "id": "metronome",
+    "name": "Metronome",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mewniumz": {
+    "id": "mewniumz",
+    "name": "Mewnium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Mew"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "mewtwonitex": {
+    "id": "mewtwonitex",
+    "name": "Mewtwonite X",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mewtwonitey": {
+    "id": "mewtwonitey",
+    "name": "Mewtwonite Y",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "micleberry": {
+    "id": "micleberry",
+    "name": "Micle Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mimikiumz": {
+    "id": "mimikiumz",
+    "name": "Mimikium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Mimikyu",
+      "Mimikyu-Busted",
+      "Mimikyu-Totem",
+      "Mimikyu-Busted-Totem"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "mindplate": {
+    "id": "mindplate",
+    "name": "Mind Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "miracleseed": {
+    "id": "miracleseed",
+    "name": "Miracle Seed",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mirrorherb": {
+    "id": "mirrorherb",
+    "name": "Mirror Herb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mistyseed": {
+    "id": "mistyseed",
+    "name": "Misty Seed",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "moonball": {
+    "id": "moonball",
+    "name": "Moon Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "moonstone": {
+    "id": "moonstone",
+    "name": "Moon Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "muscleband": {
+    "id": "muscleband",
+    "name": "Muscle Band",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mysticwater": {
+    "id": "mysticwater",
+    "name": "Mystic Water",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "nanabberry": {
+    "id": "nanabberry",
+    "name": "Nanab Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "nestball": {
+    "id": "nestball",
+    "name": "Nest Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "netball": {
+    "id": "netball",
+    "name": "Net Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "nevermeltice": {
+    "id": "nevermeltice",
+    "name": "Never-Melt Ice",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "nomelberry": {
+    "id": "nomelberry",
+    "name": "Nomel Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "normalgem": {
+    "id": "normalgem",
+    "name": "Normal Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "normaliumz": {
+    "id": "normaliumz",
+    "name": "Normalium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "occaberry": {
+    "id": "occaberry",
+    "name": "Occa Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "oddincense": {
+    "id": "oddincense",
+    "name": "Odd Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "oldamber": {
+    "id": "oldamber",
+    "name": "Old Amber",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "oranberry": {
+    "id": "oranberry",
+    "name": "Oran Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ovalstone": {
+    "id": "ovalstone",
+    "name": "Oval Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pamtreberry": {
+    "id": "pamtreberry",
+    "name": "Pamtre Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "parkball": {
+    "id": "parkball",
+    "name": "Park Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "passhoberry": {
+    "id": "passhoberry",
+    "name": "Passho Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "payapaberry": {
+    "id": "payapaberry",
+    "name": "Payapa Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pechaberry": {
+    "id": "pechaberry",
+    "name": "Pecha Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "persimberry": {
+    "id": "persimberry",
+    "name": "Persim Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "petayaberry": {
+    "id": "petayaberry",
+    "name": "Petaya Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pidgeotite": {
+    "id": "pidgeotite",
+    "name": "Pidgeotite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pikaniumz": {
+    "id": "pikaniumz",
+    "name": "Pikanium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Pikachu"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "pikashuniumz": {
+    "id": "pikashuniumz",
+    "name": "Pikashunium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Pikachu-Original",
+      "Pikachu-Hoenn",
+      "Pikachu-Sinnoh",
+      "Pikachu-Unova",
+      "Pikachu-Kalos",
+      "Pikachu-Alola",
+      "Pikachu-Partner"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "pinapberry": {
+    "id": "pinapberry",
+    "name": "Pinap Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pinsirite": {
+    "id": "pinsirite",
+    "name": "Pinsirite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pixieplate": {
+    "id": "pixieplate",
+    "name": "Pixie Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "plumefossil": {
+    "id": "plumefossil",
+    "name": "Plume Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "poisonbarb": {
+    "id": "poisonbarb",
+    "name": "Poison Barb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "poisongem": {
+    "id": "poisongem",
+    "name": "Poison Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "poisoniumz": {
+    "id": "poisoniumz",
+    "name": "Poisonium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "poisonmemory": {
+    "id": "poisonmemory",
+    "name": "Poison Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Poison"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "pokeball": {
+    "id": "pokeball",
+    "name": "Poke Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pomegberry": {
+    "id": "pomegberry",
+    "name": "Pomeg Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "poweranklet": {
+    "id": "poweranklet",
+    "name": "Power Anklet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "powerband": {
+    "id": "powerband",
+    "name": "Power Band",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "powerbelt": {
+    "id": "powerbelt",
+    "name": "Power Belt",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "powerbracer": {
+    "id": "powerbracer",
+    "name": "Power Bracer",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "powerherb": {
+    "id": "powerherb",
+    "name": "Power Herb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "powerlens": {
+    "id": "powerlens",
+    "name": "Power Lens",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "powerweight": {
+    "id": "powerweight",
+    "name": "Power Weight",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "premierball": {
+    "id": "premierball",
+    "name": "Premier Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "prettyfeather": {
+    "id": "prettyfeather",
+    "name": "Pretty Feather",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "primariumz": {
+    "id": "primariumz",
+    "name": "Primarium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Primarina"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "prismscale": {
+    "id": "prismscale",
+    "name": "Prism Scale",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "protectivepads": {
+    "id": "protectivepads",
+    "name": "Protective Pads",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "protector": {
+    "id": "protector",
+    "name": "Protector",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "psychicgem": {
+    "id": "psychicgem",
+    "name": "Psychic Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "psychicmemory": {
+    "id": "psychicmemory",
+    "name": "Psychic Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Psychic"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "psychicseed": {
+    "id": "psychicseed",
+    "name": "Psychic Seed",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "psychiumz": {
+    "id": "psychiumz",
+    "name": "Psychium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "punchingglove": {
+    "id": "punchingglove",
+    "name": "Punching Glove",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pyroarite": {
+    "id": "pyroarite",
+    "name": "Pyroarite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "qualotberry": {
+    "id": "qualotberry",
+    "name": "Qualot Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "quickball": {
+    "id": "quickball",
+    "name": "Quick Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "quickpowder": {
+    "id": "quickpowder",
+    "name": "Quick Powder",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rabutaberry": {
+    "id": "rabutaberry",
+    "name": "Rabuta Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "raichunitex": {
+    "id": "raichunitex",
+    "name": "Raichunite X",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "raichunitey": {
+    "id": "raichunitey",
+    "name": "Raichunite Y",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rarebone": {
+    "id": "rarebone",
+    "name": "Rare Bone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rawstberry": {
+    "id": "rawstberry",
+    "name": "Rawst Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "razorclaw": {
+    "id": "razorclaw",
+    "name": "Razor Claw",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "razorfang": {
+    "id": "razorfang",
+    "name": "Razor Fang",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "razzberry": {
+    "id": "razzberry",
+    "name": "Razz Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "reapercloth": {
+    "id": "reapercloth",
+    "name": "Reaper Cloth",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "redcard": {
+    "id": "redcard",
+    "name": "Red Card",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "redorb": {
+    "id": "redorb",
+    "name": "Red Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Groudon"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "repeatball": {
+    "id": "repeatball",
+    "name": "Repeat Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ribbonsweet": {
+    "id": "ribbonsweet",
+    "name": "Ribbon Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rindoberry": {
+    "id": "rindoberry",
+    "name": "Rindo Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ringtarget": {
+    "id": "ringtarget",
+    "name": "Ring Target",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rockgem": {
+    "id": "rockgem",
+    "name": "Rock Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "rockincense": {
+    "id": "rockincense",
+    "name": "Rock Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rockiumz": {
+    "id": "rockiumz",
+    "name": "Rockium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "rockmemory": {
+    "id": "rockmemory",
+    "name": "Rock Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Rock"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "rockyhelmet": {
+    "id": "rockyhelmet",
+    "name": "Rocky Helmet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "roomservice": {
+    "id": "roomservice",
+    "name": "Room Service",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rootfossil": {
+    "id": "rootfossil",
+    "name": "Root Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "roseincense": {
+    "id": "roseincense",
+    "name": "Rose Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "roseliberry": {
+    "id": "roseliberry",
+    "name": "Roseli Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rowapberry": {
+    "id": "rowapberry",
+    "name": "Rowap Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rustedshield": {
+    "id": "rustedshield",
+    "name": "Rusted Shield",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Zamazenta-Crowned"
+    ],
+    "isChoice": false,
+    "isPast": false
+  },
+  "rustedsword": {
+    "id": "rustedsword",
+    "name": "Rusted Sword",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Zacian-Crowned"
+    ],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sablenite": {
+    "id": "sablenite",
+    "name": "Sablenite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sachet": {
+    "id": "sachet",
+    "name": "Sachet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "safariball": {
+    "id": "safariball",
+    "name": "Safari Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "safetygoggles": {
+    "id": "safetygoggles",
+    "name": "Safety Goggles",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sailfossil": {
+    "id": "sailfossil",
+    "name": "Sail Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "salacberry": {
+    "id": "salacberry",
+    "name": "Salac Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "salamencite": {
+    "id": "salamencite",
+    "name": "Salamencite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sceptilite": {
+    "id": "sceptilite",
+    "name": "Sceptilite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "scizorite": {
+    "id": "scizorite",
+    "name": "Scizorite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "scolipite": {
+    "id": "scolipite",
+    "name": "Scolipite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "scopelens": {
+    "id": "scopelens",
+    "name": "Scope Lens",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "scovillainite": {
+    "id": "scovillainite",
+    "name": "Scovillainite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "scraftinite": {
+    "id": "scraftinite",
+    "name": "Scraftinite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "seaincense": {
+    "id": "seaincense",
+    "name": "Sea Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sharpbeak": {
+    "id": "sharpbeak",
+    "name": "Sharp Beak",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sharpedonite": {
+    "id": "sharpedonite",
+    "name": "Sharpedonite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "shedshell": {
+    "id": "shedshell",
+    "name": "Shed Shell",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "shellbell": {
+    "id": "shellbell",
+    "name": "Shell Bell",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "shinystone": {
+    "id": "shinystone",
+    "name": "Shiny Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "shockdrive": {
+    "id": "shockdrive",
+    "name": "Shock Drive",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Genesect-Shock"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "shucaberry": {
+    "id": "shucaberry",
+    "name": "Shuca Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "silkscarf": {
+    "id": "silkscarf",
+    "name": "Silk Scarf",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "silverpowder": {
+    "id": "silverpowder",
+    "name": "Silver Powder",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sitrusberry": {
+    "id": "sitrusberry",
+    "name": "Sitrus Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "skarmorite": {
+    "id": "skarmorite",
+    "name": "Skarmorite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "skullfossil": {
+    "id": "skullfossil",
+    "name": "Skull Fossil",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "skyplate": {
+    "id": "skyplate",
+    "name": "Sky Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "slowbronite": {
+    "id": "slowbronite",
+    "name": "Slowbronite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "smoothrock": {
+    "id": "smoothrock",
+    "name": "Smooth Rock",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "snorliumz": {
+    "id": "snorliumz",
+    "name": "Snorlium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Snorlax"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "snowball": {
+    "id": "snowball",
+    "name": "Snowball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "softsand": {
+    "id": "softsand",
+    "name": "Soft Sand",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "solganiumz": {
+    "id": "solganiumz",
+    "name": "Solganium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Solgaleo",
+      "Necrozma-Dusk-Mane"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "souldew": {
+    "id": "souldew",
+    "name": "Soul Dew",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "spelltag": {
+    "id": "spelltag",
+    "name": "Spell Tag",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "spelonberry": {
+    "id": "spelonberry",
+    "name": "Spelon Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "splashplate": {
+    "id": "splashplate",
+    "name": "Splash Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "spookyplate": {
+    "id": "spookyplate",
+    "name": "Spooky Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sportball": {
+    "id": "sportball",
+    "name": "Sport Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "staraptite": {
+    "id": "staraptite",
+    "name": "Staraptite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "starfberry": {
+    "id": "starfberry",
+    "name": "Starf Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "starminite": {
+    "id": "starminite",
+    "name": "Starminite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "starsweet": {
+    "id": "starsweet",
+    "name": "Star Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "steelgem": {
+    "id": "steelgem",
+    "name": "Steel Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "steeliumz": {
+    "id": "steeliumz",
+    "name": "Steelium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "steelixite": {
+    "id": "steelixite",
+    "name": "Steelixite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "steelmemory": {
+    "id": "steelmemory",
+    "name": "Steel Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Steel"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "stick": {
+    "id": "stick",
+    "name": "Stick",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "stickybarb": {
+    "id": "stickybarb",
+    "name": "Sticky Barb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "stoneplate": {
+    "id": "stoneplate",
+    "name": "Stone Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "strangeball": {
+    "id": "strangeball",
+    "name": "Strange Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "strawberrysweet": {
+    "id": "strawberrysweet",
+    "name": "Strawberry Sweet",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sunstone": {
+    "id": "sunstone",
+    "name": "Sun Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "swampertite": {
+    "id": "swampertite",
+    "name": "Swampertite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "sweetapple": {
+    "id": "sweetapple",
+    "name": "Sweet Apple",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "syrupyapple": {
+    "id": "syrupyapple",
+    "name": "Syrupy Apple",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tamatoberry": {
+    "id": "tamatoberry",
+    "name": "Tamato Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tangaberry": {
+    "id": "tangaberry",
+    "name": "Tanga Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tapuniumz": {
+    "id": "tapuniumz",
+    "name": "Tapunium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Tapu Koko",
+      "Tapu Lele",
+      "Tapu Bulu",
+      "Tapu Fini"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "tartapple": {
+    "id": "tartapple",
+    "name": "Tart Apple",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tatsugirinite": {
+    "id": "tatsugirinite",
+    "name": "Tatsugirinite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "terrainextender": {
+    "id": "terrainextender",
+    "name": "Terrain Extender",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "thickclub": {
+    "id": "thickclub",
+    "name": "Thick Club",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "throatspray": {
+    "id": "throatspray",
+    "name": "Throat Spray",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "thunderstone": {
+    "id": "thunderstone",
+    "name": "Thunder Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "timerball": {
+    "id": "timerball",
+    "name": "Timer Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "toxicorb": {
+    "id": "toxicorb",
+    "name": "Toxic Orb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "toxicplate": {
+    "id": "toxicplate",
+    "name": "Toxic Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr00": {
+    "id": "tr00",
+    "name": "TR00",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr01": {
+    "id": "tr01",
+    "name": "TR01",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr02": {
+    "id": "tr02",
+    "name": "TR02",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr03": {
+    "id": "tr03",
+    "name": "TR03",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr04": {
+    "id": "tr04",
+    "name": "TR04",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr05": {
+    "id": "tr05",
+    "name": "TR05",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr06": {
+    "id": "tr06",
+    "name": "TR06",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr07": {
+    "id": "tr07",
+    "name": "TR07",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr08": {
+    "id": "tr08",
+    "name": "TR08",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr09": {
+    "id": "tr09",
+    "name": "TR09",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr10": {
+    "id": "tr10",
+    "name": "TR10",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr11": {
+    "id": "tr11",
+    "name": "TR11",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr12": {
+    "id": "tr12",
+    "name": "TR12",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr13": {
+    "id": "tr13",
+    "name": "TR13",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr14": {
+    "id": "tr14",
+    "name": "TR14",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr15": {
+    "id": "tr15",
+    "name": "TR15",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr16": {
+    "id": "tr16",
+    "name": "TR16",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr17": {
+    "id": "tr17",
+    "name": "TR17",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr18": {
+    "id": "tr18",
+    "name": "TR18",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr19": {
+    "id": "tr19",
+    "name": "TR19",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr20": {
+    "id": "tr20",
+    "name": "TR20",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr21": {
+    "id": "tr21",
+    "name": "TR21",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr22": {
+    "id": "tr22",
+    "name": "TR22",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr23": {
+    "id": "tr23",
+    "name": "TR23",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr24": {
+    "id": "tr24",
+    "name": "TR24",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr25": {
+    "id": "tr25",
+    "name": "TR25",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr26": {
+    "id": "tr26",
+    "name": "TR26",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr27": {
+    "id": "tr27",
+    "name": "TR27",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr28": {
+    "id": "tr28",
+    "name": "TR28",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr29": {
+    "id": "tr29",
+    "name": "TR29",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr30": {
+    "id": "tr30",
+    "name": "TR30",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr31": {
+    "id": "tr31",
+    "name": "TR31",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr32": {
+    "id": "tr32",
+    "name": "TR32",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr33": {
+    "id": "tr33",
+    "name": "TR33",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr34": {
+    "id": "tr34",
+    "name": "TR34",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr35": {
+    "id": "tr35",
+    "name": "TR35",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr36": {
+    "id": "tr36",
+    "name": "TR36",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr37": {
+    "id": "tr37",
+    "name": "TR37",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr38": {
+    "id": "tr38",
+    "name": "TR38",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr39": {
+    "id": "tr39",
+    "name": "TR39",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr40": {
+    "id": "tr40",
+    "name": "TR40",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr41": {
+    "id": "tr41",
+    "name": "TR41",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr42": {
+    "id": "tr42",
+    "name": "TR42",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr43": {
+    "id": "tr43",
+    "name": "TR43",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr44": {
+    "id": "tr44",
+    "name": "TR44",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr45": {
+    "id": "tr45",
+    "name": "TR45",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr46": {
+    "id": "tr46",
+    "name": "TR46",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr47": {
+    "id": "tr47",
+    "name": "TR47",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr48": {
+    "id": "tr48",
+    "name": "TR48",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr49": {
+    "id": "tr49",
+    "name": "TR49",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr50": {
+    "id": "tr50",
+    "name": "TR50",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr51": {
+    "id": "tr51",
+    "name": "TR51",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr52": {
+    "id": "tr52",
+    "name": "TR52",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr53": {
+    "id": "tr53",
+    "name": "TR53",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr54": {
+    "id": "tr54",
+    "name": "TR54",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr55": {
+    "id": "tr55",
+    "name": "TR55",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr56": {
+    "id": "tr56",
+    "name": "TR56",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr57": {
+    "id": "tr57",
+    "name": "TR57",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr58": {
+    "id": "tr58",
+    "name": "TR58",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr59": {
+    "id": "tr59",
+    "name": "TR59",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr60": {
+    "id": "tr60",
+    "name": "TR60",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr61": {
+    "id": "tr61",
+    "name": "TR61",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr62": {
+    "id": "tr62",
+    "name": "TR62",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr63": {
+    "id": "tr63",
+    "name": "TR63",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr64": {
+    "id": "tr64",
+    "name": "TR64",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr65": {
+    "id": "tr65",
+    "name": "TR65",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr66": {
+    "id": "tr66",
+    "name": "TR66",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr67": {
+    "id": "tr67",
+    "name": "TR67",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr68": {
+    "id": "tr68",
+    "name": "TR68",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr69": {
+    "id": "tr69",
+    "name": "TR69",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr70": {
+    "id": "tr70",
+    "name": "TR70",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr71": {
+    "id": "tr71",
+    "name": "TR71",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr72": {
+    "id": "tr72",
+    "name": "TR72",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr73": {
+    "id": "tr73",
+    "name": "TR73",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr74": {
+    "id": "tr74",
+    "name": "TR74",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr75": {
+    "id": "tr75",
+    "name": "TR75",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr76": {
+    "id": "tr76",
+    "name": "TR76",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr77": {
+    "id": "tr77",
+    "name": "TR77",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr78": {
+    "id": "tr78",
+    "name": "TR78",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr79": {
+    "id": "tr79",
+    "name": "TR79",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr80": {
+    "id": "tr80",
+    "name": "TR80",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr81": {
+    "id": "tr81",
+    "name": "TR81",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr82": {
+    "id": "tr82",
+    "name": "TR82",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr83": {
+    "id": "tr83",
+    "name": "TR83",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr84": {
+    "id": "tr84",
+    "name": "TR84",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr85": {
+    "id": "tr85",
+    "name": "TR85",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr86": {
+    "id": "tr86",
+    "name": "TR86",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr87": {
+    "id": "tr87",
+    "name": "TR87",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr88": {
+    "id": "tr88",
+    "name": "TR88",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr89": {
+    "id": "tr89",
+    "name": "TR89",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr90": {
+    "id": "tr90",
+    "name": "TR90",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr91": {
+    "id": "tr91",
+    "name": "TR91",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr92": {
+    "id": "tr92",
+    "name": "TR92",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr93": {
+    "id": "tr93",
+    "name": "TR93",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr94": {
+    "id": "tr94",
+    "name": "TR94",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr95": {
+    "id": "tr95",
+    "name": "TR95",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr96": {
+    "id": "tr96",
+    "name": "TR96",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr97": {
+    "id": "tr97",
+    "name": "TR97",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr98": {
+    "id": "tr98",
+    "name": "TR98",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tr99": {
+    "id": "tr99",
+    "name": "TR99",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "twistedspoon": {
+    "id": "twistedspoon",
+    "name": "Twisted Spoon",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "tyranitarite": {
+    "id": "tyranitarite",
+    "name": "Tyranitarite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ultraball": {
+    "id": "ultraball",
+    "name": "Ultra Ball",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "ultranecroziumz": {
+    "id": "ultranecroziumz",
+    "name": "Ultranecrozium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Necrozma-Ultra"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "unremarkableteacup": {
+    "id": "unremarkableteacup",
+    "name": "Unremarkable Teacup",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "upgrade": {
+    "id": "upgrade",
+    "name": "Up-Grade",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "utilityumbrella": {
+    "id": "utilityumbrella",
+    "name": "Utility Umbrella",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "venusaurite": {
+    "id": "venusaurite",
+    "name": "Venusaurite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "victreebelite": {
+    "id": "victreebelite",
+    "name": "Victreebelite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "wacanberry": {
+    "id": "wacanberry",
+    "name": "Wacan Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "watergem": {
+    "id": "watergem",
+    "name": "Water Gem",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "wateriumz": {
+    "id": "wateriumz",
+    "name": "Waterium Z",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "watermemory": {
+    "id": "watermemory",
+    "name": "Water Memory",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [
+      "Silvally-Water"
+    ],
+    "isChoice": false,
+    "isPast": true
+  },
+  "waterstone": {
+    "id": "waterstone",
+    "name": "Water Stone",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "watmelberry": {
+    "id": "watmelberry",
+    "name": "Watmel Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "waveincense": {
+    "id": "waveincense",
+    "name": "Wave Incense",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "weaknesspolicy": {
+    "id": "weaknesspolicy",
+    "name": "Weakness Policy",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "wellspringmask": {
+    "id": "wellspringmask",
+    "name": "Wellspring Mask",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "wepearberry": {
+    "id": "wepearberry",
+    "name": "Wepear Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "whippeddream": {
+    "id": "whippeddream",
+    "name": "Whipped Dream",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "whiteherb": {
+    "id": "whiteherb",
+    "name": "White Herb",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "widelens": {
+    "id": "widelens",
+    "name": "Wide Lens",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "wikiberry": {
+    "id": "wikiberry",
+    "name": "Wiki Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "wiseglasses": {
+    "id": "wiseglasses",
+    "name": "Wise Glasses",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "yacheberry": {
+    "id": "yacheberry",
+    "name": "Yache Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "zapplate": {
+    "id": "zapplate",
+    "name": "Zap Plate",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "zeraorite": {
+    "id": "zeraorite",
+    "name": "Zeraorite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "zoomlens": {
+    "id": "zoomlens",
+    "name": "Zoom Lens",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "zygardite": {
+    "id": "zygardite",
+    "name": "Zygardite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "berry": {
+    "id": "berry",
+    "name": "Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "berserkgene": {
+    "id": "berserkgene",
+    "name": "Berserk Gene",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "bitterberry": {
+    "id": "bitterberry",
+    "name": "Bitter Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "burntberry": {
+    "id": "burntberry",
+    "name": "Burnt Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "goldberry": {
+    "id": "goldberry",
+    "name": "Gold Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "iceberry": {
+    "id": "iceberry",
+    "name": "Ice Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mintberry": {
+    "id": "mintberry",
+    "name": "Mint Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "miracleberry": {
+    "id": "miracleberry",
+    "name": "Miracle Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "mysteryberry": {
+    "id": "mysteryberry",
+    "name": "Mystery Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "pinkbow": {
+    "id": "pinkbow",
+    "name": "Pink Bow",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "polkadotbow": {
+    "id": "polkadotbow",
+    "name": "Polkadot Bow",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": true
+  },
+  "przcureberry": {
+    "id": "przcureberry",
+    "name": "PRZ Cure Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "psncureberry": {
+    "id": "psncureberry",
+    "name": "PSN Cure Berry",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "crucibellite": {
+    "id": "crucibellite",
+    "name": "Crucibellite",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  },
+  "vilevial": {
+    "id": "vilevial",
+    "name": "Vile Vial",
+    "megaStone": null,
+    "megaEvolves": null,
+    "itemUser": [],
+    "isChoice": false,
+    "isPast": false
+  }
+}

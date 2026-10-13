@@ -1,0 +1,1261 @@
+{
+  "gen9ou": {
+    "id": "gen9ou",
+    "name": "[Gen 9] OU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Standard", "Evasion Abilities Clause", "Sleep Moves Clause", "!Sleep Clause Mod"],
+    "banlist": ["Uber", "AG", "Arena Trap", "Moody", "Shadow Tag", "King's Rock", "Razor Fang", "Baton Pass", "Last Respects", "Shed Tail", "Tera Blast"]
+  },
+  "gen9ubers": {
+    "id": "gen9ubers",
+    "name": "[Gen 9] Ubers",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": ["AG", "Moody", "King's Rock", "Razor Fang", "Baton Pass", "Last Respects"]
+  },
+  "gen9uu": {
+    "id": "gen9uu",
+    "name": "[Gen 9] UU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["OU", "UUBL"]
+  },
+  "gen9ru": {
+    "id": "gen9ru",
+    "name": "[Gen 9] RU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["UU", "RUBL", "Light Clay"]
+  },
+  "gen9nu": {
+    "id": "gen9nu",
+    "name": "[Gen 9] NU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["RU", "NUBL", "Drought", "Grassy Surge", "Quick Claw"]
+  },
+  "gen9pu": {
+    "id": "gen9pu",
+    "name": "[Gen 9] PU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["NU", "PUBL", "Damp Rock"]
+  },
+  "gen9lc": {
+    "id": "gen9lc",
+    "name": "[Gen 9] LC",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Little Cup", "Standard"],
+    "banlist": ["Basculin-White-Striped", "Cutiefly", "Diglett-Base", "Dunsparce", "Duraludon", "Flittle", "Gastly", "Girafarig", "Gligar", "Magby", "Meditite", "Misdreavus", "Murkrow", "Porygon", "Qwilfish-Hisui", "Rufflet", "Scraggy", "Scyther", "Shellder", "Sneasel", "Sneasel-Hisui", "Snivy", "Stantler", "Torchic", "Voltorb-Hisui", "Vulpix", "Vulpix-Alola", "Yanma", "Moody", "Heat Rock", "Baton Pass", "Sticky Web"]
+  },
+  "gen9doublesou": {
+    "id": "gen9doublesou",
+    "name": "[Gen 9] Doubles OU",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Standard Doubles", "Evasion Abilities Clause"],
+    "banlist": ["DUber", "Shadow Tag", "Commander"]
+  },
+  "gen9doublesubers": {
+    "id": "gen9doublesubers",
+    "name": "[Gen 9] Doubles Ubers",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Standard Doubles", "!Gravity Sleep Clause"],
+    "banlist": []
+  },
+  "gen9doublesuu": {
+    "id": "gen9doublesuu",
+    "name": "[Gen 9] Doubles UU",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["DOU", "DBL"]
+  },
+  "gen9doubleslc": {
+    "id": "gen9doubleslc",
+    "name": "[Gen 9] Doubles LC",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Standard Doubles", "Little Cup", "Sleep Clause Mod"],
+    "banlist": ["Basculin-White-Striped", "Dunsparce", "Duraludon", "Girafarig", "Gligar", "Misdreavus", "Murkrow", "Qwilfish-Hisui", "Scyther", "Sneasel", "Sneasel-Hisui", "Stantler", "Vulpix", "Vulpix-Alola", "Yanma"]
+  },
+  "gen9nationaldex": {
+    "id": "gen9nationaldex",
+    "name": "[Gen 9] National Dex",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["Standard NatDex", "Terastal Clause"],
+    "banlist": ["ND Uber", "ND AG", "Arena Trap", "Moody", "Power Construct", "Shadow Tag", "King's Rock", "Quick Claw", "Razor Fang", "Assist", "Baton Pass", "Last Respects", "Shed Tail"]
+  },
+  "gen9nationaldexuu": {
+    "id": "gen9nationaldexuu",
+    "name": "[Gen 9] National Dex UU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["ND OU", "ND UUBL", "Drizzle", "Drought", "Light Clay"]
+  },
+  "gen9nationaldexru": {
+    "id": "gen9nationaldexru",
+    "name": "[Gen 9] National Dex RU",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["[Gen 9"],
+    "banlist": ["ND UU", "ND RUBL", "Slowbronite"]
+  },
+  "gen9nationaldexlc": {
+    "id": "gen9nationaldexlc",
+    "name": "[Gen 9] National Dex LC",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["Standard NatDex", "Little Cup"],
+    "banlist": ["Aipom", "Basculin-White-Striped", "Clamperl", "Corsola-Galar", "Cutiefly", "Drifloon", "Dunsparce", "Duraludon", "Flittle", "Girafarig", "Gligar", "Meditite", "Misdreavus", "Murkrow", "Porygon", "Qwilfish-Hisui", "Rufflet", "Scraggy", "Scyther", "Sneasel", "Sneasel-Hisui", "Stantler", "Swirlix", "Tangela", "Voltorb-Hisui", "Woobat", "Yanma", "Zigzagoon-Base", "Chlorophyll", "Moody", "Eevium Z", "King's Rock", "Quick Claw", "Razor Fang", "Assist", "Aurora Veil", "Baton Pass", "Dragon Rage", "Sonic Boom", "Sticky Web"]
+  },
+  "gen9nationaldexdoubles": {
+    "id": "gen9nationaldexdoubles",
+    "name": "[Gen 9] National Dex Doubles",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["Standard Doubles", "NatDex Mod", "Evasion Abilities Clause"],
+    "banlist": ["Annihilape", "Arceus", "Calyrex-Ice", "Calyrex-Shadow", "Deoxys-Attack", "Dialga", "Dialga-Origin", "Espathra", "Eternatus", "Genesect", "Gengar-Mega", "Giratina", "Giratina-Origin", "Groudon", "Ho-Oh", "Koraidon", "Kyogre", "Kyurem-White", "Lugia", "Lunala", "Magearna", "Melmetal", "Metagross-Mega", "Mewtwo", "Miraidon", "Necrozma-Dawn-Wings", "Necrozma-Dusk-Mane", "Necrozma-Ultra", "Palkia", "Palkia-Origin", "Rayquaza", "Reshiram", "Shedinja", "Solgaleo", "Stakataka", "Terapagos", "Urshifu", "Urshifu-Rapid-Strike", "Xerneas", "Yveltal", "Zacian", "Zacian-Crowned", "Zamazenta", "Zamazenta-Crowned", "Zekrom", "Zygarde-50%", "Zygarde-Complete", "Commander", "Power Construct", "Shadow Tag", "Eevium Z", "Assist", "Coaching", "Dark Void", "Swagger"]
+  },
+  "gen9bssregi": {
+    "id": "gen9bssregi",
+    "name": "[Gen 9] BSS Reg I",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Limit Two Restricted"],
+    "banlist": []
+  },
+  "gen9vgc2025regi": {
+    "id": "gen9vgc2025regi",
+    "name": "[Gen 9] VGC 2025 Reg I",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Open Team Sheets", "Limit Two Restricted"],
+    "banlist": []
+  },
+  "gen9vgc2024regg": {
+    "id": "gen9vgc2024regg",
+    "name": "[Gen 9] VGC 2024 Reg G",
+    "mod": "gen9",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Open Team Sheets", "Limit One Restricted"],
+    "banlist": []
+  },
+  "gen9vgc2023regd": {
+    "id": "gen9vgc2023regd",
+    "name": "[Gen 9] VGC 2023 Reg D",
+    "mod": "gen9predlc",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Open Team Sheets"],
+    "banlist": [
+      "Ogerpon", "Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone", "Okidogi", "Munkidori", "Fezandipiti", "Sinistcha", "Poltchageist", "Dipplin", "Ursaluna-Bloodmoon", "Terapagos", "Archaludon", "Hydrapple", "Gouging Fire", "Raging Bolt", "Iron Crown", "Iron Boulder", "Pecharunt"
+    ]
+  },
+  "gen9vgc2023regc": {
+    "id": "gen9vgc2023regc",
+    "name": "[Gen 9] VGC 2023 Reg C",
+    "mod": "gen9predlc",
+    "game_type": "doubles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 9", "VGC Timer", "Open Team Sheets", "Paldea Pokedex"],
+    "banlist": [
+      "Charmander", "Charmeleon", "Charizard", "Articuno", "Zapdos", "Moltres", "Mewtwo", "Mew", "Cyndaquil", "Quilava", "Typhlosion", "Oshawott", "Dewott", "Samurott", "Rowlet", "Dartrix", "Decidueye", "Grookey", "Thwackey", "Rillaboom", "Scorbunny", "Raboot", "Cinderace", "Sobble", "Drizzile", "Inteleon", "Zacian", "Zamazenta", "Eternatus", "Kubfu", "Urshifu", "Urshifu-Rapid-Strike", "Zarude", "Regieleki", "Regidrago", "Glastrier", "Spectrier", "Calyrex", "Walking Wake", "Iron Leaves", "Ogerpon", "Terapagos", "Archaludon", "Hydrapple", "Gouging Fire", "Raging Bolt", "Iron Crown", "Iron Boulder", "Pecharunt", "Sinistcha", "Ursaluna", "Ursaluna-Bloodmoon", "Okidogi", "Munkidori", "Fezandipiti"
+    ]
+  },
+  "gen9championsou": {
+    "id": "gen9championsou",
+    "name": "[Gen 9 Champions] OU",
+    "mod": "champions",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard"],
+    "banlist": ["AG", "Uber", "Moody", "Damp Rock", "King's Rock", "Light Clay", "Quick Claw", "Baton Pass", "Last Respects", "Shed Tail"]
+  },
+  "gen9championsuu": {
+    "id": "gen9championsuu",
+    "name": "[Gen 9 Champions] UU",
+    "mod": "champions",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 9 Champions"],
+    "banlist": ["OU", "UUBL", "Drought"]
+  },
+  "gen9championsbssregmc": {
+    "id": "gen9championsbssregmc",
+    "name": "[Gen 9 Champions] BSS Reg M-C",
+    "mod": "champions",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "VGC Timer"],
+    "banlist": []
+  },
+  "gen9championsvgc2026regmc": {
+    "id": "gen9championsvgc2026regmc",
+    "name": "[Gen 9 Champions] VGC 2026 Reg M-C",
+    "mod": "champions",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "VGC Timer", "Open Team Sheets"],
+    "banlist": []
+  },
+  "gen9championsvgc2026regmcbo3": {
+    "id": "gen9championsvgc2026regmcbo3",
+    "name": "[Gen 9 Champions] VGC 2026 Reg M-C (Bo3)",
+    "mod": "champions",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "VGC Timer", "Force Open Team Sheets", "Best of = 3"],
+    "banlist": []
+  },
+  "gen9championsbssregmb": {
+    "id": "gen9championsbssregmb",
+    "name": "[Gen 9 Champions] BSS Reg M-B",
+    "mod": "championsregmb",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "VGC Timer"],
+    "banlist": [
+      "Salamence", "Golisopod", "Baxcalibur", "Rillaboom", "Hydrapple", 
+      "Urshifu", "Ogerpon", "Ursaluna", "Ursaluna-Bloodmoon", "Terapagos", 
+      "Archaludon", "Gouging Fire", "Raging Bolt", "Iron Crown", "Iron Boulder", 
+      "Sneasler", "Enamorus", "Sinistcha", "Smeargle", "Incineroar", 
+      "Articuno-Galar", "Zapdos-Galar", "Moltres-Galar", "Regieleki", "Regidrago"
+    ]
+  },
+  "gen9championsvgc2026regmb": {
+    "id": "gen9championsvgc2026regmb",
+    "name": "[Gen 9 Champions] VGC 2026 Reg M-B",
+    "mod": "championsregmb",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "VGC Timer", "Open Team Sheets"],
+    "banlist": [
+      "Salamence", "Golisopod", "Baxcalibur", "Rillaboom", "Hydrapple", 
+      "Urshifu", "Ogerpon", "Ursaluna", "Ursaluna-Bloodmoon", "Terapagos", 
+      "Archaludon", "Gouging Fire", "Raging Bolt", "Iron Crown", "Iron Boulder", 
+      "Sneasler", "Enamorus", "Sinistcha", "Smeargle", "Incineroar", 
+      "Articuno-Galar", "Zapdos-Galar", "Moltres-Galar", "Regieleki", "Regidrago"
+    ]
+  },
+  "gen9championsvgc2026regmbbo3": {
+    "id": "gen9championsvgc2026regmbbo3",
+    "name": "[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)",
+    "mod": "championsregmb",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "VGC Timer", "Force Open Team Sheets", "Best of = 3"],
+    "banlist": [
+      "Salamence", "Golisopod", "Baxcalibur", "Rillaboom", "Hydrapple", 
+      "Urshifu", "Ogerpon", "Ursaluna", "Ursaluna-Bloodmoon", "Terapagos", 
+      "Archaludon", "Gouging Fire", "Raging Bolt", "Iron Crown", "Iron Boulder", 
+      "Sneasler", "Enamorus", "Sinistcha", "Smeargle", "Incineroar", 
+      "Articuno-Galar", "Zapdos-Galar", "Moltres-Galar", "Regieleki", "Regidrago"
+    ]
+  },
+  "gen9champions4v4doublesuu": {
+    "id": "gen9champions4v4doublesuu",
+    "name": "[Gen 9 Champions] 4v4 Doubles UU",
+    "mod": "championsregmb",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 9 Champions"],
+    "banlist": [
+      "Aegislash", "Aerodactyl", "Archaludon", "Basculegion-M", "Charizard-Mega-Y", 
+      "Delphox-Mega", "Excadrill", "Farigiraf", "Floette-Mega", "Froslass-Mega", 
+      "Garchomp", "Gardevoir-Mega", "Gengar-Mega", "Incineroar", "Kingambit", 
+      "Kommo-o", "Maushold", "Meganium-Mega", "Milotic", "Ninetales-Alola", 
+      "Pelipper", "Rotom-Wash", "Scizor-Mega", "Scovillain-Mega", "Sinistcha", 
+      "Sneasler", "Talonflame", "Tyranitar-Mega", "Venusaur", "Whimsicott", 
+      "Focus Band", "King's Rock", "Quick Claw",
+      "Salamence", "Golisopod", "Baxcalibur", "Rillaboom", "Hydrapple", 
+      "Urshifu", "Ogerpon", "Ursaluna", "Ursaluna-Bloodmoon", "Terapagos", 
+      "Gouging Fire", "Raging Bolt", "Iron Crown", "Iron Boulder", "Enamorus", 
+      "Smeargle", "Articuno-Galar", "Zapdos-Galar", "Moltres-Galar", 
+      "Regieleki", "Regidrago"
+    ]
+  },
+  "gen8ou": {
+    "id": "gen8ou",
+    "name": "[Gen 8] OU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Dynamax Clause"],
+    "banlist": ["Uber", "AG", "Arena Trap", "Moody", "Shadow Tag", "Baton Pass"]
+  },
+  "gen8ubers": {
+    "id": "gen8ubers",
+    "name": "[Gen 8] Ubers",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Dynamax Clause"],
+    "banlist": ["AG", "Shadow Tag", "Baton Pass"]
+  },
+  "gen8uu": {
+    "id": "gen8uu",
+    "name": "[Gen 8] UU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["OU", "UUBL", "Light Clay"]
+  },
+  "gen8ru": {
+    "id": "gen8ru",
+    "name": "[Gen 8] RU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["UU", "RUBL"]
+  },
+  "gen8nu": {
+    "id": "gen8nu",
+    "name": "[Gen 8] NU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["RU", "NUBL", "Drizzle", "Drought", "Slush Rush"]
+  },
+  "gen8pu": {
+    "id": "gen8pu",
+    "name": "[Gen 8] PU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["NU", "PUBL"]
+  },
+  "gen8lc": {
+    "id": "gen8lc",
+    "name": "[Gen 8] LC",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Little Cup", "Standard", "Dynamax Clause"],
+    "banlist": ["Corsola-Galar", "Cutiefly", "Drifloon", "Gastly", "Gothita", "Magby", "Rufflet", "Scraggy", "Scyther", "Sneasel", "Swirlix", "Tangela", "Vulpix-Alola", "Woobat", "Zigzagoon-Base", "Chlorophyll", "Moody", "Baton Pass", "Sticky Web"]
+  },
+  "gen8battlestadiumsingles": {
+    "id": "gen8battlestadiumsingles",
+    "name": "[Gen 8] Battle Stadium Singles",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 8", "VGC Timer", "Limit Two Restricted"],
+    "banlist": []
+  },
+  "gen8doublesou": {
+    "id": "gen8doublesou",
+    "name": "[Gen 8] Doubles OU",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard Doubles", "Dynamax Clause"],
+    "banlist": ["DUber", "Power Construct", "Shadow Tag", "Swagger"]
+  },
+  "gen8doublesubers": {
+    "id": "gen8doublesubers",
+    "name": "[Gen 8] Doubles Ubers",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard Doubles", "!Gravity Sleep Clause"],
+    "banlist": []
+  },
+  "gen8doublesuu": {
+    "id": "gen8doublesuu",
+    "name": "[Gen 8] Doubles UU",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["DOU", "DBL"]
+  },
+  "gen8vgc2022": {
+    "id": "gen8vgc2022",
+    "name": "[Gen 8] VGC 2022",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 8", "VGC Timer", "Limit Two Restricted"],
+    "banlist": []
+  },
+  "gen8vgc2021": {
+    "id": "gen8vgc2021",
+    "name": "[Gen 8] VGC 2021",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 8", "VGC Timer"],
+    "banlist": []
+  },
+  "gen8vgc2020": {
+    "id": "gen8vgc2020",
+    "name": "[Gen 8] VGC 2020",
+    "mod": "gen8dlc1",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 8", "VGC Timer"],
+    "banlist": []
+  },
+  "gen8nationaldex": {
+    "id": "gen8nationaldex",
+    "name": "[Gen 8] National Dex",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard NatDex", "Dynamax Clause"],
+    "banlist": ["ND Uber", "ND AG", "Arena Trap", "Moody", "Power Construct", "Shadow Tag", "King's Rock", "Razor Fang", "Quick Claw", "Baton Pass"]
+  },
+  "gen8nationaldexuu": {
+    "id": "gen8nationaldexuu",
+    "name": "[Gen 8] National Dex UU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["ND OU", "ND UUBL", "Drizzle", "Drought", "Light Clay", "Slowbronite"]
+  },
+  "gen8nationaldexru": {
+    "id": "gen8nationaldexru",
+    "name": "[Gen 8] National Dex RU",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 8"],
+    "banlist": ["ND UU", "ND RUBL"]
+  },
+  "gen8nationaldexdoubles": {
+    "id": "gen8nationaldexdoubles",
+    "name": "[Gen 8] National Dex Doubles",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard Doubles", "NatDex Mod", "Evasion Abilities Clause", "Dynamax Clause"],
+    "banlist": ["Arceus", "Calyrex-Ice", "Calyrex-Shadow", "Dialga", "Eternatus", "Gengar-Mega", "Giratina", "Giratina-Origin", "Groudon", "Ho-Oh", "Kyogre", "Kyurem-White", "Lugia", "Lunala", "Magearna", "Melmetal", "Mewtwo", "Necrozma-Dawn-Wings", "Necrozma-Dusk-Mane", "Palkia", "Rayquaza", "Reshiram", "Solgaleo", "Urshifu-Base", "Xerneas", "Yveltal", "Zacian", "Zacian-Crowned", "Zamazenta", "Zamazenta-Crowned", "Zekrom", "Zygarde-Complete", "Power Construct", "Shadow Tag", "Beat Up", "Dark Void", "Eevium Z", "Guard Split", "Swagger"]
+  },
+  "gen8nationaldexubers": {
+    "id": "gen8nationaldexubers",
+    "name": "[Gen 8] National Dex Ubers",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard NatDex", "!Evasion Clause", "Evasion Moves Clause", "Evasion Abilities Clause", "Mega Rayquaza Clause", "Dynamax Clause"],
+    "banlist": ["ND AG", "Ultranecrozium Z", "Moody", "Shadow Tag", "Baton Pass"]
+  },
+  "gen7ou": {
+    "id": "gen7ou",
+    "name": "[Gen 7] OU",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard"],
+    "banlist": ["Uber", "Arena Trap", "Shadow Tag", "Baton Pass"]
+  },
+  "gen7ubers": {
+    "id": "gen7ubers",
+    "name": "[Gen 7] Ubers",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard", "Mega Rayquaza Clause"],
+    "banlist": ["Baton Pass"]
+  },
+  "gen7uu": {
+    "id": "gen7uu",
+    "name": "[Gen 7] UU",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 7"],
+    "banlist": ["OU", "UUBL", "Drizzle", "Drought", "Kommonium Z", "Mewnium Z"]
+  },
+  "gen7ru": {
+    "id": "gen7ru",
+    "name": "[Gen 7] RU",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 7"],
+    "banlist": ["UU", "RUBL", "Mimikyu", "Aurora Veil"]
+  },
+  "gen7nu": {
+    "id": "gen7nu",
+    "name": "[Gen 7] NU",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 7"],
+    "banlist": ["RU", "NUBL", "Drought"]
+  },
+  "gen7pu": {
+    "id": "gen7pu",
+    "name": "[Gen 7] PU",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 7"],
+    "banlist": ["NU", "PUBL"]
+  },
+  "gen7lc": {
+    "id": "gen7lc",
+    "name": "[Gen 7] LC",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Little Cup", "Standard"],
+    "banlist": ["Aipom", "Cutiefly", "Drifloon", "Gligar", "Gothita", "Meditite", "Misdreavus", "Murkrow", "Porygon", "Scyther", "Sneasel", "Swirlix", "Tangela", "Trapinch", "Vulpix-Base", "Vulpix-Alola", "Wingull", "Yanma", "Eevium Z", "Baton Pass", "Dragon Rage", "Sonic Boom", "Sticky Web", "Swagger"]
+  },
+  "gen7battlespotsingles": {
+    "id": "gen7battlespotsingles",
+    "name": "[Gen 7] Battle Spot Singles",
+    "mod": "gen7",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": ["Battle Bond"]
+  },
+  "gen7doublesou": {
+    "id": "gen7doublesou",
+    "name": "[Gen 7] Doubles OU",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard Doubles"],
+    "banlist": ["DUber", "Power Construct", "Eevium Z", "Dark Void", "Swagger"]
+  },
+  "gen7doublesuu": {
+    "id": "gen7doublesuu",
+    "name": "[Gen 7] Doubles UU",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 7"],
+    "banlist": ["DOU", "DBL"]
+  },
+  "gen7vgc2019": {
+    "id": "gen7vgc2019",
+    "name": "[Gen 7] VGC 2019",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 7", "VGC Timer", "Limit Two Restricted"],
+    "banlist": ["Unown", "Battle Bond"]
+  },
+  "gen7vgc2018": {
+    "id": "gen7vgc2018",
+    "name": "[Gen 7] VGC 2018",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "!! Adjust Level = 50", "Min Source Gen = 7", "VGC Timer", "!! Timer Starting = 300"],
+    "banlist": ["Oranguru + Symbiosis", "Passimian + Defiant", "Unown", "Custap Berry", "Enigma Berry", "Jaboca Berry", "Micle Berry", "Rowap Berry", "Battle Bond"]
+  },
+  "gen7vgc2017": {
+    "id": "gen7vgc2017",
+    "name": "[Gen 7] VGC 2017",
+    "mod": "gen7sm",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Old Alola Pokedex", "!! Adjust Level = 50", "Min Source Gen = 7", "VGC Timer", "!! Timer Starting = 900"],
+    "banlist": ["Mega", "Custap Berry", "Enigma Berry", "Jaboca Berry", "Micle Berry", "Rowap Berry"]
+  },
+  "gen7battlespotdoubles": {
+    "id": "gen7battlespotdoubles",
+    "name": "[Gen 7] Battle Spot Doubles",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": ["Battle Bond"]
+  },
+  "gen7battlespottriples": {
+    "id": "gen7battlespottriples",
+    "name": "[Gen 7] Battle Spot Triples",
+    "mod": "gen7",
+    "game_type": "triples",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": []
+  },
+  "gen6ou": {
+    "id": "gen6ou",
+    "name": "[Gen 6] OU",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard", "Evasion Abilities Clause"],
+    "banlist": ["Uber", "Arena Trap", "Shadow Tag", "King's Rock", "Quick Claw", "Razor Fang", "Soul Dew", "Baton Pass", "Swagger"]
+  },
+  "gen6ubers": {
+    "id": "gen6ubers",
+    "name": "[Gen 6] Ubers",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard", "Mega Rayquaza Clause"],
+    "banlist": ["Baton Pass", "Swagger"]
+  },
+  "gen6uu": {
+    "id": "gen6uu",
+    "name": "[Gen 6] UU",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard"],
+    "banlist": ["Uber", "OU", "UUBL", "Arena Trap", "Drizzle", "Drought", "Shadow Tag", "Soul Dew", "Baton Pass", "Swagger"]
+  },
+  "gen6ru": {
+    "id": "gen6ru",
+    "name": "[Gen 6] RU",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 6"],
+    "banlist": ["UU", "RUBL"]
+  },
+  "gen6nu": {
+    "id": "gen6nu",
+    "name": "[Gen 6] NU",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 6"],
+    "banlist": ["RU", "NUBL"]
+  },
+  "gen6pu": {
+    "id": "gen6pu",
+    "name": "[Gen 6] PU",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 6"],
+    "banlist": ["NU", "PUBL", "Chatter"]
+  },
+  "gen6lc": {
+    "id": "gen6lc",
+    "name": "[Gen 6] LC",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard", "Little Cup", "Pomeg Glitch Clause"],
+    "banlist": ["Drifloon", "Gligar", "Meditite", "Misdreavus", "Murkrow", "Scyther", "Sneasel", "Swirlix", "Tangela", "Yanma", "Baton Pass", "Dragon Rage", "Sonic Boom", "Swagger"]
+  },
+  "gen6battlespotsingles": {
+    "id": "gen6battlespotsingles",
+    "name": "[Gen 6] Battle Spot Singles",
+    "mod": "gen6",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": ["Soul Dew"]
+  },
+  "gen6vgc2016": {
+    "id": "gen6vgc2016",
+    "name": "[Gen 6] VGC 2016",
+    "mod": "gen6",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6", "Limit Two Restricted"],
+    "banlist": ["Soul Dew"]
+  },
+  "gen6vgc2015": {
+    "id": "gen6vgc2015",
+    "name": "[Gen 6] VGC 2015",
+    "mod": "gen6",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": ["Soul Dew", "Articuno + Snow Cloak", "Zapdos + Static", "Moltres + Flame Body", "Dragonite + Barrier"]
+  },
+  "gen6vgc2014": {
+    "id": "gen6vgc2014",
+    "name": "[Gen 6] VGC 2014",
+    "mod": "gen6xy",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Kalos Pokedex", "Min Source Gen = 6"],
+    "banlist": []
+  },
+  "gen6battlespotdoubles": {
+    "id": "gen6battlespotdoubles",
+    "name": "[Gen 6] Battle Spot Doubles",
+    "mod": "gen6",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": ["Soul Dew"]
+  },
+  "gen6battlespottriples": {
+    "id": "gen6battlespottriples",
+    "name": "[Gen 6] Battle Spot Triples",
+    "mod": "gen6",
+    "game_type": "triples",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Flat Rules", "Min Source Gen = 6"],
+    "banlist": []
+  },
+  "gen5ou": {
+    "id": "gen5ou",
+    "name": "[Gen 5] OU",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Evasion Abilities Clause", "Sleep Moves Clause", "Gems Clause", "Baton Pass Stat Clause"],
+    "banlist": ["Uber", "Arena Trap", "Drizzle ++ Swift Swim", "Drought ++ Chlorophyll", "Sand Rush", "Shadow Tag", "King's Rock", "Razor Fang", "Soul Dew", "Assist", "Swagger"]
+  },
+  "gen5ubers": {
+    "id": "gen5ubers",
+    "name": "[Gen 5] Ubers",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Sleep Clause Mod"],
+    "banlist": []
+  },
+  "gen5uu": {
+    "id": "gen5uu",
+    "name": "[Gen 5] UU",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Evasion Abilities Clause", "Sleep Clause Mod"],
+    "banlist": ["Uber", "OU", "UUBL", "Arena Trap", "Drought", "Sand Stream", "Snow Warning", "Prankster + Assist", "Prankster + Copycat", "Baton Pass", "Swagger"]
+  },
+  "gen5ru": {
+    "id": "gen5ru",
+    "name": "[Gen 5] RU",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 5"],
+    "banlist": ["UU", "RUBL", "Shadow Tag", "Shell Smash + Baton Pass"]
+  },
+  "gen5nu": {
+    "id": "gen5nu",
+    "name": "[Gen 5] NU",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 5"],
+    "banlist": ["RU", "NUBL", "Assist", "Copycat"]
+  },
+  "gen5pu": {
+    "id": "gen5pu",
+    "name": "[Gen 5] PU",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 5"],
+    "banlist": ["NU", "PUBL", "Damp Rock"]
+  },
+  "gen5lc": {
+    "id": "gen5lc",
+    "name": "[Gen 5] LC",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Little Cup", "Pomeg Glitch Clause", "Sleep Moves Clause"],
+    "banlist": ["Gligar", "Meditite", "Misdreavus", "Murkrow", "Scraggy", "Scyther", "Sneasel", "Tangela", "Vulpix", "Yanma", "Sand Rush", "Sand Veil", "Berry Juice", "Soul Dew", "Baton Pass", "Dragon Rage", "Sonic Boom", "Swagger"]
+  },
+  "gen5gbusingles": {
+    "id": "gen5gbusingles",
+    "name": "[Gen 5] GBU Singles",
+    "mod": "gen5",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules"],
+    "banlist": ["Dark Void", "Sky Drop", "Soul Dew"]
+  },
+  "gen5vgc2013": {
+    "id": "gen5vgc2013",
+    "name": "[Gen 5] VGC 2013",
+    "mod": "gen5",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules"],
+    "banlist": ["Chatot", "Dark Void", "Sky Drop", "Soul Dew"]
+  },
+  "gen5vgc2012": {
+    "id": "gen5vgc2012",
+    "name": "[Gen 5] VGC 2012",
+    "mod": "gen5bw1",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules"],
+    "banlist": ["Dark Void", "Sky Drop"]
+  },
+  "gen5vgc2011": {
+    "id": "gen5vgc2011",
+    "name": "[Gen 5] VGC 2011",
+    "mod": "gen5bw1",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules", "Old Unova Pokedex"],
+    "banlist": ["Sky Drop", "Belue Berry", "Durin Berry", "Nomel Berry", "Rabuta Berry", "Spelon Berry", "Watmel Berry"]
+  },
+  "gen5doublesou": {
+    "id": "gen5doublesou",
+    "name": "[Gen 5] Doubles OU",
+    "mod": "gen5",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Evasion Abilities Clause", "Sleep Clause Mod"],
+    "banlist": ["DUber", "Shadow Tag", "Soul Dew", "Dark Void", "Gravity", "Swagger"]
+  },
+  "gen4ou": {
+    "id": "gen4ou",
+    "name": "[Gen 4] OU",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Evasion Abilities Clause", "Baton Pass Stat Trap Clause", "Freeze Clause Mod", "Sleep Moves Clause", "!Sleep Clause Mod"],
+    "banlist": ["AG", "Uber", "Arena Trap", "Quick Claw", "Soul Dew", "Swagger"]
+  },
+  "gen4ubers": {
+    "id": "gen4ubers",
+    "name": "[Gen 4] Ubers",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": ["AG"]
+  },
+  "gen4uu": {
+    "id": "gen4uu",
+    "name": "[Gen 4] UU",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 4"],
+    "banlist": ["OU", "UUBL", "Baton Pass"]
+  },
+  "gen4nu": {
+    "id": "gen4nu",
+    "name": "[Gen 4] NU",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 4"],
+    "banlist": ["UU", "NUBL"]
+  },
+  "gen4pu": {
+    "id": "gen4pu",
+    "name": "[Gen 4] PU",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 4"],
+    "banlist": ["NU", "PUBL", "Baton Pass"]
+  },
+  "gen4zu": {
+    "id": "gen4zu",
+    "name": "[Gen 4] ZU",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 4"],
+    "banlist": ["PU", "ZUBL", "Damp Rock"]
+  },
+  "gen4lc": {
+    "id": "gen4lc",
+    "name": "[Gen 4] LC",
+    "mod": "gen4",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Little Cup", "Pomeg Glitch Clause", "Evasion Abilities Clause", "Sleep Moves Clause"],
+    "banlist": ["Meditite", "Misdreavus", "Murkrow", "Scyther", "Sneasel", "Tangela", "Yanma", "Berry Juice", "Deep Sea Tooth", "Dragon Rage", "Sonic Boom", "Swagger"]
+  },
+  "gen4vgc2010": {
+    "id": "gen4vgc2010",
+    "name": "[Gen 4] VGC 2010",
+    "mod": "gen4",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules"],
+    "banlist": ["Soul Dew"]
+  },
+  "gen4vgc2009": {
+    "id": "gen4vgc2009",
+    "name": "[Gen 4] VGC 2009",
+    "mod": "gen4pt",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Flat Rules", "! Adjust Level Down", "Max Level = 50"],
+    "banlist": ["Tyranitar", "Rotom", "Judgment", "Soul Dew"]
+  },
+  "gen4doublesou": {
+    "id": "gen4doublesou",
+    "name": "[Gen 4] Doubles OU",
+    "mod": "gen4",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Evasion Abilities Clause"],
+    "banlist": ["AG", "Uber", "Soul Dew", "Explosion", "Dark Void", "Self-Destruct", "Swagger", "Thunder Wave"]
+  },
+  "gen3ou": {
+    "id": "gen3ou",
+    "name": "[Gen 3] OU",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "One Boost Passer Clause", "Accuracy Trap Clause", "Freeze Clause Mod", "Speed Pass Clause"],
+    "banlist": ["Uber", "Smeargle + Ingrain", "Sand Veil", "Soundproof", "Quick Claw", "Assist", "Baton Pass + Block", "Baton Pass + Mean Look", "Baton Pass + Spider Web", "Swagger"]
+  },
+  "gen3ubers": {
+    "id": "gen3ubers",
+    "name": "[Gen 3] Ubers",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Deoxys Camouflage Clause Mod", "One Baton Pass Clause"],
+    "banlist": ["Wobbuffet + Leftovers", "Wynaut + Leftovers", "Baton Pass"]
+  },
+  "gen3uu": {
+    "id": "gen3uu",
+    "name": "[Gen 3] UU",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": ["Uber", "OU", "UUBL", "Smeargle + Ingrain", "Arena Trap", "Baton Pass", "Swagger"]
+  },
+  "gen3ru": {
+    "id": "gen3ru",
+    "name": "[Gen 3] RU",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": ["Uber", "OU", "UUBL", "UU", "RUBL", "Glalie", "Smeargle + Ingrain", "Arena Trap", "Baton Pass", "Swagger"]
+  },
+  "gen3nu": {
+    "id": "gen3nu",
+    "name": "[Gen 3] NU",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "One Boost Passer Clause"],
+    "banlist": ["Uber", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "Smeargle + Ingrain"]
+  },
+  "gen3pu": {
+    "id": "gen3pu",
+    "name": "[Gen 3] PU",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Baton Pass Stat Clause"],
+    "banlist": ["Uber", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "Baton Pass + Substitute"]
+  },
+  "gen3zu": {
+    "id": "gen3zu",
+    "name": "[Gen 3] ZU",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Sleep Moves Clause", "Baton Pass Stat Trap Clause"],
+    "banlist": ["Uber", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "PU", "ZUBL", "Swagger", "Baton Pass + Substitute"]
+  },
+  "gen3lc": {
+    "id": "gen3lc",
+    "name": "[Gen 3] LC",
+    "mod": "gen3",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Little Cup", "Pomeg Glitch Clause", "Sleep Moves Clause", "Accuracy Moves Clause"],
+    "banlist": ["Abra", "Chansey", "Diglett", "Meditite", "Omanyte", "Porygon", "Scyther", "Wynaut", "Zigzagoon", "Deep Sea Tooth", "Baton Pass", "Dragon Rage", "Sonic Boom", "Swagger", "Thunder Wave"]
+  },
+  "gen3doublesou": {
+    "id": "gen3doublesou",
+    "name": "[Gen 3] Doubles OU",
+    "mod": "gen3",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "!Switch Priority Clause Mod"],
+    "banlist": ["Uber", "Quick Claw", "Soul Dew", "Explosion", "Self-Destruct", "Swagger"]
+  },
+  "gen2ou": {
+    "id": "gen2ou",
+    "name": "[Gen 2] OU",
+    "mod": "gen2",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": ["Uber", "Mean Look + Baton Pass", "Spider Web + Baton Pass"]
+  },
+  "gen2ubers": {
+    "id": "gen2ubers",
+    "name": "[Gen 2] Ubers",
+    "mod": "gen2",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": []
+  },
+  "gen2uu": {
+    "id": "gen2uu",
+    "name": "[Gen 2] UU",
+    "mod": "gen2",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 2"],
+    "banlist": ["OU", "UUBL", "Agility + Baton Pass"]
+  },
+  "gen2nu": {
+    "id": "gen2nu",
+    "name": "[Gen 2] NU",
+    "mod": "gen2",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 2"],
+    "banlist": ["UU", "NUBL", "Swagger"]
+  },
+  "gen2pu": {
+    "id": "gen2pu",
+    "name": "[Gen 2] PU",
+    "mod": "gen2",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 2"],
+    "banlist": ["NU", "PUBL", "Baton Pass + Mean Look", "Baton Pass + Spider Web"]
+  },
+  "gen2zu": {
+    "id": "gen2zu",
+    "name": "[Gen 2] ZU",
+    "mod": "gen2",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 2"],
+    "banlist": ["PU", "ZUBL", "Baton Pass + Mean Look", "Baton Pass + Spider Web"]
+  },
+  "gen1ou": {
+    "id": "gen1ou",
+    "name": "[Gen 1] OU",
+    "mod": "gen1",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": ["Uber"]
+  },
+  "gen1ubers": {
+    "id": "gen1ubers",
+    "name": "[Gen 1] Ubers",
+    "mod": "gen1",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": []
+  },
+  "gen1uu": {
+    "id": "gen1uu",
+    "name": "[Gen 1] UU",
+    "mod": "gen1",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 1"],
+    "banlist": ["OU", "UUBL", "Bind", "Clamp", "Confuse Ray", "Fire Spin", "Supersonic", "Wrap"]
+  },
+  "gen1pu": {
+    "id": "gen1pu",
+    "name": "[Gen 1] PU",
+    "mod": "gen1",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 1"],
+    "banlist": ["NU", "PUBL"]
+  },
+  "gen1zu": {
+    "id": "gen1zu",
+    "name": "[Gen 1] ZU",
+    "mod": "gen1",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 1"],
+    "banlist": ["PU", "ZUBL"]
+  },
+  "gen1lc": {
+    "id": "gen1lc",
+    "name": "[Gen 1] LC",
+    "mod": "gen1",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Little Cup", "Standard", "!Max Level", "Adjust Level = 5", "Sleep Moves Clause", "Accuracy Moves Clause"],
+    "banlist": ["Dragon Rage", "Fire Spin", "Sonic Boom", "Wrap"]
+  },
+  "gen7doublesubers": {
+    "id": "gen7doublesubers",
+    "name": "[Gen 7] Doubles Ubers",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard Doubles", "!Gravity Sleep Clause"],
+    "banlist": []
+  },
+  "gen7doubleslc": {
+    "id": "gen7doubleslc",
+    "name": "[Gen 7] Doubles LC",
+    "mod": "gen7",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard Doubles", "Little Cup", "Sleep Clause Mod"],
+    "banlist": ["Eevium Z", "Oranguru", "Passimian", "Dark Void"]
+  },
+  "gen6doublesou": {
+    "id": "gen6doublesou",
+    "name": "[Gen 6] Doubles OU",
+    "mod": "gen6",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard Doubles", "Swagger Clause"],
+    "banlist": ["DUber", "Soul Dew", "Dark Void", "Gravity", "Evasion Abilities Clause"]
+  },
+  "gen5doublesubers": {
+    "id": "gen5doublesubers",
+    "name": "[Gen 5] Doubles Ubers",
+    "mod": "gen5",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard Doubles", "!Gravity Sleep Clause"],
+    "banlist": ["Dark Void", "Sky Drop"]
+  },
+  "gen5doublesuu": {
+    "id": "gen5doublesuu",
+    "name": "[Gen 5] Doubles UU",
+    "mod": "gen5",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 5] Doubles OU"],
+    "banlist": ["DOU", "DBL"]
+  },
+  "gen4doublesubers": {
+    "id": "gen4doublesubers",
+    "name": "[Gen 4] Doubles Ubers",
+    "mod": "gen4",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard Doubles", "!Gravity Sleep Clause"],
+    "banlist": []
+  },
+  "gen4doublesuu": {
+    "id": "gen4doublesuu",
+    "name": "[Gen 4] Doubles UU",
+    "mod": "gen4",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 4] Doubles OU"],
+    "banlist": ["DOU", "DBL"]
+  },
+  "gen3doublesubers": {
+    "id": "gen3doublesubers",
+    "name": "[Gen 3] Doubles Ubers",
+    "mod": "gen3",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard Doubles"],
+    "banlist": []
+  },
+  "gen3doublesuu": {
+    "id": "gen3doublesuu",
+    "name": "[Gen 3] Doubles UU",
+    "mod": "gen3",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["[Gen 3] Doubles OU"],
+    "banlist": ["DOU", "DBL"]
+  },
+  "gen9anythinggoes": {
+    "id": "gen9anythinggoes",
+    "name": "[Gen 9] Anything Goes",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": false },
+    "ruleset": ["Standard"],
+    "banlist": []
+  },
+  "gen9nationaldexubers": {
+    "id": "gen9nationaldexubers",
+    "name": "[Gen 9] National Dex Ubers",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["Standard NatDex", "Mega Rayquaza Clause"],
+    "banlist": ["ND AG", "Baton Pass"]
+  },
+  "gen9nationaldexag": {
+    "id": "gen9nationaldexag",
+    "name": "[Gen 9] National Dex AG",
+    "mod": "gen9",
+    "game_type": "singles",
+    "mechanics": { "tera": true, "mega": true },
+    "ruleset": ["Standard NatDex"],
+    "banlist": []
+  },
+  "gen8anythinggoes": {
+    "id": "gen8anythinggoes",
+    "name": "[Gen 8] Anything Goes",
+    "mod": "gen8",
+    "game_type": "singles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard", "Dynamax Clause"],
+    "banlist": []
+  },
+  "gen8doubleslc": {
+    "id": "gen8doubleslc",
+    "name": "[Gen 8] Doubles LC",
+    "mod": "gen8",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": false },
+    "ruleset": ["Standard Doubles", "Little Cup", "Dynamax Clause", "Sleep Clause Mod"],
+    "banlist": ["Corsola-Galar", "Cutiefly", "Drifloon", "Gastly", "Gothita", "Magby", "Rufflet", "Scraggy", "Scyther", "Sneasel", "Swirlix", "Tangela", "Vulpix-Alola", "Woobat", "Zigzagoon-Base", "Baton Pass"]
+  },
+  "gen6doublesubers": {
+    "id": "gen6doublesubers",
+    "name": "[Gen 6] Doubles Ubers",
+    "mod": "gen6",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["Standard Doubles", "!Gravity Sleep Clause"],
+    "banlist": ["Dark Void"]
+  },
+  "gen6doublesuu": {
+    "id": "gen6doublesuu",
+    "name": "[Gen 6] Doubles UU",
+    "mod": "gen6",
+    "game_type": "doubles",
+    "mechanics": { "tera": false, "mega": true },
+    "ruleset": ["[Gen 6] Doubles OU"],
+    "banlist": ["DOU", "DBL"]
+  }
+}
