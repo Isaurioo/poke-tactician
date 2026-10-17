@@ -32,6 +32,10 @@ else:
     LOCAL_MODEL = os.getenv("AI_MODEL", "qwen/qwen3.8-27b")
     FALLBACK_MODELS = [LOCAL_MODEL]
 
+# Alias públicos para módulos que necesitan hablar con el proveedor directamente (p. ej. búsqueda web con grounding)
+AI_PROVIDER = _provider
+AI_API_KEY = _api_key
+
 logger.info(f"AI Provider configurado: {_provider} (modelo: {LOCAL_MODEL})")
 
 ai_client = OpenAI(

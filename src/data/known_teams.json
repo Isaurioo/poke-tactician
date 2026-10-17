@@ -1,0 +1,49 @@
+{
+  "_doc": "Equipos de referencia VERIFICADOS (campeones, finalistas, arquetipos). Solo entran equipos cuyo roster se comprobó en la fuente indicada, con la forma exacta de cada Pokémon (nombres estilo Showdown). Campos: id, kind, year, event_type (worlds|regional|international|national), event, division, placing (1=campeón, 2=finalista, 3=semifinalista), player, aliases (frases extra que lo identifican), format_id (id de formats.json), species (6), source (URL), paste (Pokepaste con los sets exactos, opcional). Para añadir uno: copia una entrada, cambia los datos y cita la fuente.",
+  "teams": [
+    {
+      "id": "worlds2024-masters-1",
+      "kind": "tournament",
+      "year": 2024, "event_type": "worlds", "event": "Pokémon World Championships 2024 (Honolulu)",
+      "division": "masters", "placing": 1, "player": "Luca Ceribelli",
+      "aliases": [],
+      "format_id": "gen9vgc2024regg",
+      "species": ["Miraidon", "Iron Hands", "Ogerpon-Hearthflame", "Whimsicott", "Urshifu-Rapid-Strike", "Farigiraf"],
+      "source": "https://www.nimbasacitypost.com/2024/08/world-championships-2024.html",
+      "paste": "https://pokepast.es/e5e59f4de5381bfc"
+    },
+    {
+      "id": "worlds2024-masters-2",
+      "kind": "tournament",
+      "year": 2024, "event_type": "worlds", "event": "Pokémon World Championships 2024 (Honolulu)",
+      "division": "masters", "placing": 2, "player": "Yuta Ishigaki",
+      "aliases": [],
+      "format_id": "gen9vgc2024regg",
+      "species": ["Calyrex-Ice", "Landorus", "Urshifu-Rapid-Strike", "Pelipper", "Iron Valiant", "Amoonguss"],
+      "source": "https://www.nimbasacitypost.com/2024/08/world-championships-2024.html",
+      "paste": "https://pokepast.es/4e3b9285a3eaf9e7"
+    },
+    {
+      "id": "worlds2024-masters-3a",
+      "kind": "tournament",
+      "year": 2024, "event_type": "worlds", "event": "Pokémon World Championships 2024 (Honolulu)",
+      "division": "masters", "placing": 3, "player": "Michael Kelsch",
+      "aliases": [],
+      "format_id": "gen9vgc2024regg",
+      "species": ["Zamazenta-Crowned", "Flutter Mane", "Entei", "Rillaboom", "Urshifu-Rapid-Strike", "Chien-Pao"],
+      "source": "https://www.nimbasacitypost.com/2024/08/world-championships-2024.html",
+      "paste": "https://pokepast.es/e1d42fd2a919d7db"
+    },
+    {
+      "id": "worlds2024-masters-3b",
+      "kind": "tournament",
+      "year": 2024, "event_type": "worlds", "event": "Pokémon World Championships 2024 (Honolulu)",
+      "division": "masters", "placing": 3, "player": "Seongjae Jeong",
+      "aliases": [],
+      "format_id": "gen9vgc2024regg",
+      "species": ["Miraidon", "Iron Hands", "Ogerpon-Hearthflame", "Whimsicott", "Urshifu", "Farigiraf"],
+      "source": "https://www.nimbasacitypost.com/2024/08/world-championships-2024.html",
+      "paste": "https://pokepast.es/aa2521bd541f3858"
+    }
+  ]
+}

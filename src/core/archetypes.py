@@ -346,6 +346,46 @@ def mark_gigantamax(team: List[Dict[str, Any]], pool: Dict[str, Any], wanted: bo
     return [msg("gmax_pick", lang, s=best["species"])]
 
 
+def mark_primal(team: List[Dict[str, Any]]) -> None:
+    """Etiqueta `primal` a Groudon/Kyogre que llevan su orbe (Reversión Primigenia): no es Mega, es una forma de batalla."""
+    for p in team:
+        sp = nid(p.get("species", ""))
+        item = p.get("item") or ""
+        if (sp in ("groudon", "kyogre") and item in ("Red Orb", "Blue Orb")) or sp in ("groudonprimal", "kyogreprimal"):
+            p["primal"] = True
+
+
+NO_DYNAMAX_BASES = {"zacian", "zamazenta", "eternatus"}  # ni ellos ni sus formas pueden usar Dynamax (Bulbapedia/Serebii)
+
+
+def mark_dynamax(team: List[Dict[str, Any]], pool: Dict[str, Any], wants_gmax: bool, resolve: Any, lang: str) -> List[str]:
+    """Etiqueta al Pokémon que usará Dynamax (solo uno por combate), como la Mega, el cristal Z o la Teracristalización.
+    Excluye a quienes no pueden Dynamax. Prefiere especies con Gigamax (+80 de puntaje) y las marca `gigantamax`."""
+    if not pool["mechanics"].get("allow_dynamax") or not team:
+        return []
+
+    def base(p: Dict[str, Any]) -> str:
+        return nid((resolve(p["species"]) or {}).get("baseSpecies") or p["species"])
+
+    cands = [p for p in team if base(p) not in NO_DYNAMAX_BASES]
+    if not cands:
+        return []
+    gm = [p for p in cands if base(p) in GMAX_BASES]
+    if wants_gmax and not gm:
+        notes = [msg("ut_gmax", lang)]
+        pick = max(cands, key=_bst)
+    else:
+        pick = max(gm if wants_gmax else cands, key=lambda p: _bst(p) + (80 if base(p) in GMAX_BASES else 0))
+        notes = []
+    pick["dynamax"] = True
+    if base(pick) in GMAX_BASES:
+        pick["gigantamax"] = True
+        notes.append(msg("gmax_pick", lang, s=pick["species"]))
+    else:
+        notes.append(msg("dyna_pick", lang, s=pick["species"]))
+    return notes
+
+
 _TERA_DEF = ["Steel", "Fairy", "Water", "Fire", "Normal", "Ghost", "Dragon", "Dark"]
 
 

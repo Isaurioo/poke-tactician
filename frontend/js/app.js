@@ -514,6 +514,11 @@ document.addEventListener("DOMContentLoaded", () => {
         mechanicBadgeHtml = `<span class="type-badge-pill" style="background:#d97706; border: 1px solid #fbbf24;"><i class="bi bi-lightning-charge-fill"></i> ${t("card.zcrystal")}</span>`;
       } else if (isGmax) {
         mechanicBadgeHtml = `<span class="type-badge-pill" style="background:#dc2626; border: 1px solid #f87171;"><i class="bi bi-cloud-lightning-rain-fill"></i> G-MAX</span>`;
+      } else if (poke.primal) {
+        const blue = /blue|azul|bleu/i.test(poke.item || "") || /kyogre/i.test(poke.species || "");
+        mechanicBadgeHtml = `<span class="type-badge-pill" style="background:${blue ? "#1d4ed8" : "#b91c1c"}; border: 1px solid ${blue ? "#60a5fa" : "#f87171"};"><i class="bi bi-brightness-high-fill"></i> PRIMAL</span>`;
+      } else if (poke.dynamax) {
+        mechanicBadgeHtml = `<span class="type-badge-pill" style="background:#be123c; border: 1px solid #fb7185;"><i class="bi bi-arrows-fullscreen"></i> DYNAMAX</span>`;
       } else if (poke.tera_type) {
         mechanicBadgeHtml = `<span class="type-badge-pill" style="background:#0284c7; border: 1px solid #38bdf8;"><i class="bi bi-gem"></i> ${t("card.tera", { type: typeLabel(poke.tera_type) })}</span>`;
       }

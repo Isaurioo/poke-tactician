@@ -114,6 +114,10 @@ MANDATORY_FORM_ITEMS = {
     "ogerponcornerstone": "Cornerstone Mask",
 }
 
+# Reversión Primigenia (Gen 6/7): Groudon y Kyogre con su orbe; NO cuenta como Mega, sí como restringido.
+# Solo se asigna si el formato permite la orbe (pool["legal_items"]): la legalidad la decide el motor de formatos.
+PRIMAL_ORBS = {"groudon": "Red Orb", "kyogre": "Blue Orb"}
+
 TR_SETTERS = {
     "farigiraf", "indeedeef", "hatterene", "sinistcha", "porygon2",
     "dusclops", "bronzong", "mimikyu", "armarouge", "cresselia",
@@ -182,13 +186,14 @@ def parse_tactical_intent(prompt: str) -> Dict[str, Any]:
     def has(pat: str) -> bool:
         return bool(re.search(pat, p))
 
-    wants_tr = has(r"\btrick\s*room\b|\bespacio\s+raro\b|\bdistorsion\b|\btr\b")
+    wants_tailroom = has(r"\btail\s*room\b")  # arquetipo "TailRoom": Tailwind + Trick Room (modo rápido y modo lento)
+    wants_tr = has(r"\btrick\s*room\b|\bespacio\s+raro\b|\bdistorsion\b|\btr\b") or wants_tailroom
     fixes = {
         "wants_tr": wants_tr,
         "wants_2_megas": has(r"\b(2|dos|deux|two|dual|both|ambas)\s+(megas?|megaevolu\w+)\b"),
         "wants_no_mega": has(r"\b(sin|no|without|sans|pas de)\s+(megas?|megaevol\w*)\b"),
         "wants_mega": has(r"\bmegas?\b|megaevol|\bmega-") and not has(r"\b(sin|no|without|sans|pas de)\s+(megas?|megaevol\w*)\b"),
-        "wants_tailwind": has(r"\btailwind\b|\bviento\s+afin\b|\bvent\s+arriere\b"),
+        "wants_tailwind": has(r"\btailwind\b|\bviento\s+afin\b|\bvent\s+arriere\b") or wants_tailroom,
         "wants_rain": has(r"\b(lluvia|rain|drizzle|pluie|pluvieux|rain\s*dance)\b"),
         "wants_sun": has(r"(?<!type )(?<!tipo )(?<!de type )\b(sol|sun|sunny|drought|soleado|soleil|ensoleille)\b") and not wants_tr,
         "wants_sand": has(r"\b(arena|sand|sandstorm|sable)\b|tormenta de arena|tempete de sable"),
@@ -198,7 +203,7 @@ def parse_tactical_intent(prompt: str) -> Dict[str, Any]:
         "wants_electric": has(r"(terreno|campo) (de )?electrico|electric (terrain|surge)|champ electri\w+"),
         "wants_misty": has(r"(terreno|campo) de niebla|misty (terrain|surge)|champ brumeux"),
         "wants_dual_weather": has(r"doble clima|dos climas|clima doble|clima hibrido|double weather|dual weather|hybrid weather|two weathers|double meteo|deux meteo"),
-        "wants_semi_tr": has(r"semi[- ]?(trick room|tr\b|espacio raro)|modo rapido y (modo )?lento|fast and slow mode|mode rapide et (mode )?lent|dual mode|doble modo|semi trick"),
+        "wants_semi_tr": wants_tailroom or has(r"semi[- ]?(trick room|tr\b|espacio raro)|modo rapido y (modo )?lento|fast and slow mode|mode rapide et (mode )?lent|dual mode|doble modo|semi trick"),
         "wants_hazards": has(r"\bhazards?\b|stealth rock|trampa rocas|rocas furtivas|\bpuas\b|spikes|picots|rocher furtif"),
         "wants_redirect": has(r"redireccion|redirect|follow me|rage powder|polvo ira|poudre fureur|par ici"),
         "wants_screens": has(r"\bpantallas?\b|dual screens?|\bscreens\b|reflect|light screen|aurora veil|\becrans?\b|mur lumiere"),
@@ -217,6 +222,23 @@ def parse_tactical_intent(prompt: str) -> Dict[str, Any]:
         out[k] = v
     from src.core.archetypes import parse_core_types
     out["core_types"] = parse_core_types(prompt)
+    # Equipos de referencia: "campeón del mundial 2023", "ganador del regional de X", "big 6 de VGC 2022"...
+    wants_big6 = has(r"\bbig\s*(6|six|seis)\b")
+    # \bchampion\b (singular) para no confundir con el juego/formato "Champions"
+    _champ = has(r"\b(campeon|campeona|campeones|champion|finalista\w*|runner[- ]?up|subcampeon\w*|top\s*(2|4|8|16|32|cut)|champion\w*\s+du\s+monde)\b|\b(ganador\w*|winner|vainqueur)\s+(del?|de la|of|du)\b")
+    _event = has(r"\b(mundial\w*|worlds?|regional\w*|internacional\w*|international\w*|nationals?|nacional\w*|campeonato\w*|championship\w*|special\s*event|play!?\s*pokemon|vgc|bss|20[0-2]\d)\b")
+    # Equipos populares en general: "equipo popular/famoso/clásico", arquetipos con nombre propio, equipos de jugadores
+    _popular = has(r"\b(popular\w*|famos[oa]s?|conocid[oa]s?|clasic[oa]s?|iconic[oa]s?|tipic[oa]s?|de moda|mas usad[oa]s?|mas jugad[oa]s?|meta|metagame|famous|well[- ]known|classic|iconic|staple|most[- ]used|most[- ]played|populaire\w*|celebre\w*)\b")
+    _team_word = has(r"\b(equipos?|teams?|core|cores|equipes?)\b")
+    _named_arch = has(r"\b(psy\s*spam|psyspam|goodstuffs?|good\s*stuffs?|sun\s*room|rain\s*room|sand\s*room|snow\s*room|tailroom|tail\s*room|trick\s*room\s+\w+|hyper\s*offense|dual\s*weather|webs?\s*offense|sand\s*offense|rain\s*offense|sun\s*offense)\b")
+    _by_player = has(r"\b(equipo|team)\s+de\s+[a-z0-9_]{3,}\b.*\b(vgc|worlds?|regional\w*|mundial\w*|torneo|20[0-2]\d)\b")
+    out["wants_big6"] = wants_big6
+    out["wants_popular"] = bool(_popular and _team_word)
+    # "equipo popular" sin ningún nombre propio (torneo, jugador, arquetipo): se resuelve con el uso real del formato
+    out["wants_generic_popular"] = bool(_popular and _team_word and not wants_big6 and not (_champ and _event)
+                                        and not wants_tailroom and not _named_arch and not _by_player)
+    out["wants_reference_team"] = bool(wants_big6 or (_champ and _event) or wants_tailroom
+                                       or (_popular and _team_word) or _named_arch or _by_player)
     out["wants_perish_trap"] = has(r"\bperish\s*(trap|song)\b|\bcanto\s+mortal\b|\btrampa\s+mortal\b|\brequiem\b|\bpiege\s+mortel\b")
     return out
 
@@ -246,6 +268,38 @@ def detect_user_requested_pokemon(
     cache = _dex_cache()
     entries, _illegal = resolve_requests(user_prompt, cache, legal_pokemon)
     return entries
+
+
+def picked_team_size(pool: Dict[str, Any]) -> int:
+    """Cuántos Pokémon se llevan a la batalla (se eligen en Team Preview).
+    Formatos oficiales de reglas planas (VGC/BSS/Battle Spot): 4 en dobles, 3 en individuales; el resto de formatos usa los 6."""
+    fmt = pool.get("format", {})
+    rules = " ".join(fmt.get("ruleset", [])).lower()
+    if "flat rules" not in rules:
+        return 6
+    return {"singles": 3, "doubles": 4}.get(fmt.get("game_type"), 6)
+
+
+def mega_rule_limit(pool: Dict[str, Any], intent: Dict[str, Any]) -> int:
+    """Límite DURO de Megas por equipo que aplica el validador (misma lógica que había en la ruta).
+    Si el jugador pide explícitamente 2 Megas se conserva el comportamiento previo: se permiten al menos 2."""
+    mech = pool["mechanics"]
+    if not mech.get("allow_megas"):
+        return 0
+    rule = int(mech.get("max_megas_rule", mech.get("max_megas", 0)) or 0)
+    return max(rule, 2) if intent.get("wants_2_megas") else rule
+
+
+def mega_team_cap(pool: Dict[str, Any], intent: Dict[str, Any], required: List[Dict[str, Any]]) -> int:
+    """Máximo de Megas que el GENERADOR pondrá en el equipo, siempre acotado por `mega_rule_limit`.
+    Por defecto 1; 2 si el jugador lo pide o si el equipo de referencia / los Pokémon pedidos ya traen 2 o más."""
+    if not pool["mechanics"].get("allow_megas") or intent.get("wants_no_mega"):
+        return 0
+    required_megas = sum(1 for r in required if isinstance(r, dict) and r.get("is_mega"))
+    wanted = int(pool["mechanics"].get("max_megas", 1) or 1)
+    if intent.get("wants_2_megas") or required_megas >= 2:
+        wanted = max(wanted, 2, required_megas)
+    return max(0, min(mega_rule_limit(pool, intent), wanted))
 
 
 _TIER_PTS = {"uber": 9, "ag": 9, "(uber)": 8, "ou": 8, "(ou)": 7, "uubl": 7, "uu": 6, "rubl": 6, "ru": 5, "nubl": 5, "nu": 4, "(nu)": 4, "publ": 4, "pu": 3, "(pu)": 3, "zubl": 3}
@@ -675,6 +729,8 @@ def extract_live_set_for_pokemon(
             final_item = mandatory_it_name
     elif poke_entry.get("requiredItem"):
         final_item = poke_entry["requiredItem"]
+    elif p_key in PRIMAL_ORBS and gen_num in (6, 7) and normalize_id(PRIMAL_ORBS[p_key]) in legal_items:
+        final_item = PRIMAL_ORBS[p_key]
     elif poke_entry.get("is_mega"):
         for it_id, it_obj in legal_items.items():
             if it_obj.get("megaStone") and normalize_id(it_obj["megaStone"]) in [base_key, p_key]:
@@ -1533,6 +1589,26 @@ def adapt_team_synergies(
     return team, notes
 
 
+def se_targets(types: List[str], gen: int) -> Set[str]:
+    """Tipos defensores que los tipos dados (proxy de STAB) golpean súper efectivo en la tabla de esa generación."""
+    chart = type_chart_for_gen(_modern_chart(), gen)
+    out: Set[str] = set()
+    for atk in types:
+        for dfn, mult in (chart.get(atk) or {}).items():
+            if mult > 1:
+                out.add(dfn)
+    return out
+
+
+def megas_complement(first: Dict[str, Any], second: Dict[str, Any], gen: int) -> bool:
+    """Una segunda Mega solo se justifica si aporta cobertura: no comparte tipo con la primera y golpea súper
+    efectivo al menos 2 tipos que la primera no golpea."""
+    t1, t2 = era_types(first.get("types") or [], gen), era_types(second.get("types") or [], gen)
+    if set(t1) & set(t2):
+        return False
+    return len(se_targets(t2, gen) - se_targets(t1, gen)) >= 2
+
+
 def build_balanced_synergistic_team(
     ai_species_list: List[str],
     requested_pokes: List[Dict[str, Any]],
@@ -1542,13 +1618,20 @@ def build_balanced_synergistic_team(
     smogon_sets: Dict[str, Any],
     user_prompt: str,
     reserved_items: Optional[Set[str]] = None,
+    reference_mode: bool = False,
 ) -> List[Dict[str, Any]]:
+    """reference_mode=True: los Pokémon pedidos son un equipo de referencia (campeón, Big 6, arquetipo con nombre):
+    se respeta tal cual, sin forzar Megas ni cambios de composición; solo se rellena lo que falte."""
     legal_pokemon = pool["legal_pokemon"]
     mech = pool["mechanics"]
     intent = parse_tactical_intent(user_prompt)
 
-    effective_max_megas = 2 if (intent["wants_2_megas"] and mech["allow_megas"]) else mech["max_megas"]
-    force_mega_clause = mech.get("force_mega", False) and effective_max_megas >= 1 and not intent.get("wants_no_mega")
+    effective_max_megas = mega_team_cap(pool, intent, requested_pokes)
+    mega_rule_max = mega_rule_limit(pool, intent)  # tope duro del formato (Gen 6/7 y Champions: varias en el equipo, 1 evoluciona)
+    gen_for_types = int(mech.get("gen", 9) or 9)
+    required_bases = {normalize_id(r.get("baseSpecies") or r.get("name") or "") for r in requested_pokes if isinstance(r, dict)}
+    force_mega_clause = (mech.get("force_mega", False) and effective_max_megas >= 1
+                         and not intent.get("wants_no_mega") and not reference_mode)
     force_restricted_clause = mech.get("force_restricted", False)
     max_restricted = mech.get("max_restricted", 0)
 
@@ -1569,7 +1652,19 @@ def build_balanced_synergistic_team(
             or b_name in {"incineroar", "rillaboom", "indeedeef", "sinistcha", "amoonguss", "grimmsnarl", "whimsicott", "pelipper", "tornadus", "klefki"}
         )
 
-    def can_add_entry(entry: Dict[str, Any], strict_balance: bool = True) -> bool:
+    def mega_slot_available(entry: Dict[str, Any], soft: bool) -> bool:
+        """¿Cabe esta Mega? Dentro del tope del generador sí; una 2ª Mega (solo para las elegidas por la IA, no el relleno)
+        entra únicamente si el formato lo permite y complementa la cobertura de la 1ª."""
+        if not mech["allow_megas"] or effective_max_megas == 0:
+            return False
+        if mega_count < effective_max_megas:
+            return True
+        if soft and mega_count == 1 and mega_rule_max >= 2:
+            first = next((c for c in chosen_entries if c.get("is_mega")), None)
+            return bool(first and megas_complement(first, entry, gen_for_types))
+        return False
+
+    def can_add_entry(entry: Dict[str, Any], strict_balance: bool = True, soft_mega: bool = False) -> bool:
         nonlocal mega_count, restricted_count, pure_phys_sweepers, pure_spec_sweepers, active_setter_weather
         if entry["baseSpecies"] in used_bases:
             return False
@@ -1586,7 +1681,7 @@ def build_balanced_synergistic_team(
             if not has_stone:
                 return False  # ¡Bloquea alucinaciones como Mega Dragonite!
                 
-        if entry.get("is_mega") and (not mech["allow_megas"] or mega_count >= effective_max_megas):
+        if entry.get("is_mega") and not mega_slot_available(entry, soft_mega):
             return False
         if entry.get("is_restricted") and restricted_count >= max_restricted and max_restricted > 0:
             return False
@@ -1608,7 +1703,9 @@ def build_balanced_synergistic_team(
         is_phys = bs.get("atk", 80) >= bs.get("spa", 80)
         is_sup = is_pivot_or_support(entry) and not entry.get("is_mega")
 
-        if intent["wants_tr"]:
+        # Causa raíz del fallo "TailRoom Miraidon": este filtro también rechazaba al Pokémon que el jugador pidió.
+        # No aplica a lo pedido/de referencia ni a los equipos semi-TR (modo rápido + modo lento).
+        if intent["wants_tr"] and not intent.get("wants_semi_tr") and b_name not in required_bases:
             if bs.get("spe", 80) >= 105 and b_name not in TR_SETTERS and b_name not in ["incineroar", "amoonguss"]:
                 return False
 
@@ -1707,10 +1804,10 @@ def build_balanced_synergistic_team(
         if len(chosen_entries) >= 6:
             break
         cand = resolve_species_name(sp_raw, _dex_cache(), legal_pokemon)
-        if cand and cand.get("is_mega") and (not mech["allow_megas"] or mega_count >= effective_max_megas):
+        if cand and cand.get("is_mega") and not mega_slot_available(cand, True):
             cand = legal_pokemon.get(normalize_id(cand["baseSpecies"]))
         if cand:
-            can_add_entry(cand, strict_balance=True)
+            can_add_entry(cand, strict_balance=True, soft_mega=True)
     # Segunda pasada: lo que la IA eligió prevalece sobre el relleno automático del meta
     for sp_raw in ai_species_list:
         if len(chosen_entries) >= 6:

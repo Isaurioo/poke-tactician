@@ -9,7 +9,7 @@ from fastapi.responses import JSONResponse
 from src.ai.client import LOCAL_MODEL, MAX_OUTPUT_TOKENS, ai_client, get_reasoning_kwargs
 from openai import APIConnectionError, APIStatusError, RateLimitError
 from src.core.entity_extraction import norm_text, resolve_requests, resolve_species_name
-from src.core.archetypes import (assign_tera_types, check_request, enforce_features, mark_gigantamax, strip_gmax,
+from src.core.archetypes import (assign_tera_types, check_request, enforce_features, mark_dynamax, mark_primal, strip_gmax,
                                  team_archetype, verify_outcome)
 from src.core.messages import msg, norm_lang
 from src.core.team_validator import RuleViolation, validate_team
@@ -18,7 +18,8 @@ from src.core.era_rules import describe_era, era_mechanics, guide_era_rules
 from src.core.move_rules import PROTECT_FAMILY, norm_move
 from src.services.format_engine import MAX_DEX_BY_GEN
 from src.core.text_validator import drop_era_anachronisms, drop_false_pivot_sentences, sentences
-from src.ai.prompts import LANGUAGE_NAMES, SYSTEM_TACTICIAN_PROMPT, SYSTEM_TEAM_SELECTOR_PROMPT, language_rule
+from src.ai.prompts import (LANGUAGE_NAMES, SYSTEM_REFERENCE_TEAM_PROMPT, SYSTEM_TACTICIAN_PROMPT,
+                            SYSTEM_TEAM_SELECTOR_PROMPT, language_rule, mega_rule_text)
 from src.api.schemas import TeamGenerationRequest
 from src.core.coverage import (
     build_verified_tactical_briefing,
@@ -33,8 +34,13 @@ from src.services.smogon import fetch_live_format_chaos, fetch_smogon_sets
 from src.services.teambuilder import (
     build_balanced_synergistic_team,
     build_versatile_context_for_ai,
+    mega_rule_limit,
     parse_tactical_intent,
+    picked_team_size,
 )
+from src.services import web_lookup
+from src.services.reference_teams import fetch_paste_sets, pseudo_stats_from_sets, resolve_reference_team
+from src.services.web_lookup import web_lookup_team
 
 router = APIRouter(prefix="", tags=["Teambuilder"])
 logger = logging.getLogger("uvicorn")
@@ -251,8 +257,64 @@ def _assemble_guide(format_name: str, mode: str, texts: Dict[str, str]) -> Dict[
     }
 
 
+def _only_user_named(requested: List[Dict[str, Any]], raw_prompt: Optional[str], legal_map: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Pedido de un equipo concreto (Big 6, campeón...): el chat reescribe el mensaje con un router de IA que puede INVENTAR
+    Pokémon ("Big 6 team with Kangaskhan, ..., Rayquaza"). Solo cuentan como obligatorios los que el jugador escribió él mismo."""
+    if not raw_prompt:
+        return requested
+    pokedex_service._load_compendium_files()
+    named, _illegal = resolve_requests(norm_text(raw_prompt), pokedex_service._POKEDEX_CACHE, legal_map)
+    named_bases = {_nid(e.get("baseSpecies") or e.get("name")) for e in named}
+    return [rp for rp in requested
+            if not isinstance(rp, dict) or _nid(rp.get("baseSpecies") or rp.get("name")) in named_bases]
+
+
+def _primal_hint(pool: Dict[str, Any]) -> str:
+    """Si el formato permite Groudon/Kyogre con sus orbes (Gen 6/7), se lo dice al selector."""
+    gen = int(pool["mechanics"].get("gen", 9) or 9)
+    items, legal = pool.get("legal_items", {}), pool.get("legal_pokemon", {})
+    if gen in (6, 7) and "redorb" in items and "blueorb" in items and ("groudon" in legal or "kyogre" in legal):
+        return (" Groudon y Kyogre (si los eliges) usan su Reversión Primigenia con la Orbe Roja/Azul: NO cuenta como Mega "
+                "y cuenta como Pokémon restringido.")
+    return ""
+
+
+async def _recall_roster(prompt: str, pool: Dict[str, Any], bring_n: int) -> Optional[Dict[str, Any]]:
+    """ÚLTIMO recurso: la IA recuerda un roster. No verificado; el motor lo valida y lo marca como tal."""
+    fmt = pool["format"]
+    rule_txt = (f"se llevan {bring_n} de 6" if bring_n < 6 else "se usan los 6 Pokémon")
+    try:
+        resp = ai_client.chat.completions.create(
+            model=LOCAL_MODEL,
+            messages=[
+                {"role": "system", "content": SYSTEM_REFERENCE_TEAM_PROMPT.format(
+                    user_request=prompt.strip(), format_name=fmt["name"], bring_rule=rule_txt)},
+                {"role": "user", "content": f"Solicitud: {prompt.strip()}"},
+            ],
+            response_format={"type": "json_object"},
+            temperature=0.0,
+            max_tokens=MAX_OUTPUT_TOKENS,
+            **get_reasoning_kwargs("low"),
+        )
+        data = _parse_json(resp.choices[0].message.content or "")
+    except (RateLimitError, APIConnectionError, APIStatusError):
+        raise  # los errores de la IA ya se traducen a HTTP más arriba
+    except Exception as err:  # JSON ilegible u otra falla: se cae al flujo normal, sin romper la generación
+        logger.warning(f"Equipo de referencia no disponible: {err}")
+        return None
+    if not isinstance(data, dict) or not data.get("found") or str(data.get("confidence", "")).lower() == "low":
+        return None
+    raw = data.get("species")
+    if isinstance(raw, str):
+        raw = [x.strip() for x in raw.split(",") if x.strip()]
+    if not isinstance(raw, list) or len(raw) < 4:
+        return None
+    return {"source": str(data.get("source") or "equipo de referencia")[:120], "species": [str(x) for x in raw[:6]]}
+
+
 def make_strategy_guide(final_team: List[Dict[str, Any]], pool: Dict[str, Any], meta_pool: List[Dict[str, Any]],
-                        era: Any, intent: Dict[str, Any], prompt: str, lang: str, skip_ai: bool = False) -> Dict[str, Any]:
+                        era: Any, intent: Dict[str, Any], prompt: str, lang: str, skip_ai: bool = False,
+                        bring_n: int = 6) -> Dict[str, Any]:
     """Guía táctica verificada (núcleo, apertura, victoria, amenazas). La usan el creador y el analizador."""
     team_abilities = {p.get("ability") for p in final_team if isinstance(p, dict) and p.get("ability")}
     team_moves = {m for p in final_team if isinstance(p, dict) for m in p.get("moves", [])}
@@ -273,7 +335,11 @@ def make_strategy_guide(final_team: List[Dict[str, Any]], pool: Dict[str, Any], 
         p.get("species", "") for p in final_team
         if isinstance(p, dict) and ("Mega" in p.get("species", "") or "-Mega" in p.get("species", ""))
     ]
-    mega_guardrail = f"La ÚNICA Mega en este equipo es: {', '.join(real_megas)}." if real_megas else "Este equipo NO tiene Megas."
+    if len(real_megas) >= 2:
+        mega_guardrail = (f"Las Megas de este equipo son: {', '.join(real_megas)}. Solo UNA evoluciona por combate y se eligen {bring_n} de 6: "
+                          "en 'leads' indica con qué rivales conviene llevar cada Mega.")
+    else:
+        mega_guardrail = f"La ÚNICA Mega en este equipo es: {', '.join(real_megas)}." if real_megas else "Este equipo NO tiene Megas."
 
     if skip_ai:
         lead_poke = final_team[0].get("species", "tus atacantes") if final_team else "tus atacantes"
@@ -452,9 +518,77 @@ async def build_team_response(
             if not already_in:
                 requested_pokes.append(target_obj)
 
+    ref_notes: List[str] = []
+    reference_mode = False
     try:
         gen = int(pool["mechanics"].get("gen", 9) or 9)
         era = era_mechanics(gen)
+        bring_n = picked_team_size(pool)
+
+        # --- Equipos de referencia (campeón, regional, Big 6, arquetipo con nombre) ---
+        # Se pide el roster a la IA (o al uso real en el Big 6), y el MOTOR valida cada especie contra el formato.
+        # El chat reescribe el pedido con un "router" de IA que puede perder palabras clave ("campeón del mundial 2024"):
+        # la detección y la búsqueda usan TAMBIÉN el mensaje original del jugador.
+        ref_query = raw_prompt or prompt
+        ref_intent = parse_tactical_intent(ref_query) if raw_prompt else intent
+        ref_flags = {**intent, **{k: bool(intent.get(k) or ref_intent.get(k)) for k in
+                                   ("wants_reference_team", "wants_big6", "wants_generic_popular", "wants_popular")}}
+        if ref_flags["wants_reference_team"] and not splice and not keep:
+            requested_pokes = _only_user_named(requested_pokes, raw_prompt, pool["legal_pokemon"])
+            ref = await resolve_reference_team(ref_query, ref_flags, pool, bring_n, mega_rule_limit(pool, intent), _recall_roster, web_lookup_team)
+            if ref and ref["resolved"]:
+                resolved, dropped, kind = ref["resolved"], ref["dropped"], ref["kind"]
+                # Lo que el jugador nombró explícitamente va primero; el equipo de referencia completa hasta 6 sin duplicar especies.
+                _bases = {_nid(rp.get("baseSpecies") or rp.get("name")) for rp in requested_pokes if isinstance(rp, dict)}
+                for entry in resolved:
+                    _b = _nid(entry.get("baseSpecies") or entry.get("name"))
+                    if len(requested_pokes) < 6 and _b not in _bases:
+                        requested_pokes.append(entry)
+                        _bases.add(_b)
+                reference_mode = len(resolved) >= 5 and len(requested_pokes) == len(resolved)
+                logger.info(f"==> Equipo de referencia ({kind}, {ref.get('source')}): {[e.get('name') for e in resolved]}")
+                fmt_name = pool["format"]["name"]
+                meta = ref.get("usage_meta") or {}
+                kept_real = len(resolved) - ref.get("filled", 0)
+                if kind == "kb":
+                    ref_notes.append(msg("ref_kb", lang, src=ref["source"], url=ref.get("url") or "-"))
+                    if ref.get("origin_format"):
+                        ref_notes.append(msg("ref_fmt_mismatch", lang, orig=ref["origin_format"], f=fmt_name, k=kept_real))
+                    elif dropped:
+                        ref_notes.append(msg("ref_partial", lang, src=ref["source"], f=fmt_name, k=kept_real, n=len(dropped)) + " (" + ", ".join(dropped) + ")")
+                elif kind == "web":
+                    w = ref.get("web") or {}
+                    defn = f" {w['definition']}" if w.get("definition") else ""
+                    ref_notes.append(msg("ref_web", lang, src=ref["source"], defn=defn, urls=ref.get("url") or "-",
+                                         exact=msg("ref_web_exact" if w.get("exact") else "ref_web_approx", lang)))
+                    if dropped:
+                        ref_notes.append(msg("ref_partial", lang, src=ref["source"], f=fmt_name, k=kept_real, n=len(dropped)) + " (" + ", ".join(dropped) + ")")
+                elif kind in ("big6", "usage"):
+                    ref_notes.append(msg("ref_usage", lang, what=ref["source"], f=fmt_name, month=meta.get("month", "?"),
+                                         rating=meta.get("rating", "?"),
+                                         desc=msg("ref_big6_desc" if kind == "big6" else "ref_core_desc", lang)))
+                else:  # recall: memoria del modelo, NO verificado
+                    ref_notes.append(msg("ref_recall", lang, src=ref["source"]))
+                    if dropped:
+                        ref_notes.append(msg("ref_partial", lang, src=ref["source"], f=fmt_name, k=kept_real, n=len(dropped)) + " (" + ", ".join(dropped) + ")")
+                if ref.get("web_failed"):
+                    ref_notes.append(msg("ref_web_failed", lang, why=web_lookup.LAST_ERROR or "sin respuesta"))
+                # Sets REALES del equipo si hay un Pokepaste (equipo verificado o fuente de la búsqueda web)
+                if ref.get("paste_urls"):
+                    _sets = await fetch_paste_sets(ref["paste_urls"])
+                    pokedex_service._load_compendium_files()
+                    _pseudo = pseudo_stats_from_sets(_sets, pool["legal_pokemon"], pokedex_service._POKEDEX_CACHE)
+                    _roster = {_nid(e.get("name")) for e in resolved}
+                    _match = {k: v for k, v in _pseudo.items() if k in _roster}
+                    if len(_match) >= 4:
+                        live_chaos = {**live_chaos, **_match}
+                        ref_notes.append(msg("ref_paste", lang, url=ref["paste_urls"][0]))
+                if ref.get("filled"):
+                    ref_notes.append(msg("ref_filled", lang, n=ref["filled"], f=fmt_name))
+            else:
+                ref_notes.append(msg("ref_unverified", lang, q=ref_query.strip()[:80], f=pool["format"]["name"]))
+                if web_lookup.LAST_ERROR:
+                    ref_notes.append(msg("ref_web_failed", lang, why=web_lookup.LAST_ERROR))
         max_dex = MAX_DEX_BY_GEN.get(gen, 9999)
         legal_map = pool.get("legal_pokemon", {})
         base_names = sorted({
@@ -479,6 +613,8 @@ async def build_team_response(
             required_block=required_block,
             era_block=describe_era(gen, max_dex, base_names if len(base_names) <= 420 else None),
             format_filtered_context=filtered_context,
+            mega_block=mega_rule_text(bool(pool["mechanics"].get("allow_megas")), mega_rule_limit(pool, intent0),
+                                      bring_n, bool(intent0.get("wants_2_megas"))) + _primal_hint(pool),
         )
 
         def _ask_selector(extra: str = "") -> List[str]:
@@ -542,6 +678,7 @@ async def build_team_response(
             smogon_sets=smogon_sets,
             user_prompt=prompt,
             reserved_items=reserved_items,
+            reference_mode=reference_mode,
         )
 
         # Sin equipos "de relleno": el motor debe devolver integrantes completos
@@ -568,24 +705,24 @@ async def build_team_response(
             final_team, rank = splice(final_team)
 
         # Última barrera: reglas del formato (movimientos, objetos, habilidades, cláusulas, límites)
-        max_megas = 2 if (intent["wants_2_megas"] and pool["mechanics"].get("allow_megas")) else pool["mechanics"].get("max_megas_rule", pool["mechanics"].get("max_megas", 0))
+        max_megas = mega_rule_limit(pool, intent)
         try:
             final_team, notes = validate_team(
                 final_team, pool, lambda n: resolve_species_name(n, _pds._POKEDEX_CACHE, legal_map), max_megas, lang, rank
             )
         except RuleViolation as rv:
             raise HTTPException(status_code=422, detail=str(rv))
-        gmax_notes = mark_gigantamax(final_team, pool, bool(intent.get("wants_gmax")), lambda n: resolve_species_name(n, _pds._POKEDEX_CACHE, legal_map), lang)
-        notes += gmax_notes
-        if pool["mechanics"].get("allow_dynamax") and final_team and not gmax_notes:
-            best = max(final_team, key=lambda p: sum((p.get("base_stats") or {}).values()))
-            notes.append(msg("dyna_pick", lang, s=best["species"]))
+        mark_primal(final_team)
+        notes += mark_dynamax(final_team, pool, bool(intent.get("wants_gmax")), lambda n: resolve_species_name(n, _pds._POKEDEX_CACHE, legal_map), lang)
         if not splice:
             notes += assign_tera_types(final_team, intent, pool, lang)
 
-        strategy_guide = make_strategy_guide(final_team, pool, meta_pool, era, intent, prompt, lang, skip_ai=bool(splice))
+        team_megas = [p.get("species", "") for p in final_team if "Mega" in str(p.get("species", ""))]
+        if len(team_megas) >= 2:
+            notes.append(msg("mega_pair", lang, n=len(team_megas), m=", ".join(team_megas), b=bring_n))
+        strategy_guide = make_strategy_guide(final_team, pool, meta_pool, era, intent, prompt, lang, skip_ai=bool(splice), bring_n=bring_n)
         if not splice:  # al editar no se juzga el equipo contra el pedido original
-            notes = list(dict.fromkeys(plan_notes + notes + verify_outcome(intent, final_team, pool, lang)))
+            notes = list(dict.fromkeys(ref_notes + plan_notes + notes + verify_outcome(intent, final_team, pool, lang)))
 
         logger.info(f"==> ¡Equipo generado exitosamente: {[p.get('species') for p in final_team]}!")
         return {

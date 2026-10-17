@@ -335,8 +335,8 @@ async def filter_available_pool_for_format(format_id: str) -> Dict[str, Any]:
             "allow_items": gen_num > 1,
             "allow_abilities": gen_num >= 3,
             "max_megas": 1 if allow_megas else 0,  # preferencia del generador
-            # Regla real: en Gen 6 y 7 un equipo puede llevar varias Megas (solo una evoluciona por combate)
-            "max_megas_rule": (6 if gen_num in (6, 7) else 1) if allow_megas else 0,
+            # Regla real: en Gen 6, 7, National Dex y Pokémon Champions un equipo puede llevar varias Megas (solo una evoluciona por combate)
+            "max_megas_rule": (6 if (gen_num in (6, 7) or is_champions or is_natdex) else 1) if allow_megas else 0,
             "max_restricted": max_restricted,
             "force_restricted": allow_restricted and ("ubers" in clean_fmt or is_reg_g),
             "item_clause": "vgc" in clean_fmt or "item clause" in ruleset_str or "flat rules" in ruleset_str or is_champions,

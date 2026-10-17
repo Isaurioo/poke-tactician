@@ -23,8 +23,8 @@ DIRECTIVAS INMUTABLES:
 4. COMPATIBILIDAD DE CLIMA: NUNCA emparejes atacantes de Sol (como Charizard con Solar Power) con Lluvia (Rain Dance) en el mismo equipo.
 5. TRICK ROOM: aplica SOLO si el pedido lo menciona. Entonces incluye 1 o 2 Setters dedicados y atacantes lentos de alto impacto; PROHIBIDO Tailwind o atacantes hiper-rápidos frágiles.
 6. PERISH TRAP: aplica SOLO si el pedido lo menciona. Entonces incluye atrapadores (Shadow Tag, Arena Trap o Magnet Pull) que aprendan Perish Song, compañeros que los protejan y Pokémon que aguanten los turnos de la cuenta atrás.
-7. MEGAS Y FORMAS: Elige SOLO especies y Megas que aparezcan en el CATÁLOGO DISPONIBLE EN ESTE FORMATO. En formatos que permiten Megas (como Gen 9 Champions, VGC con Megas o formatos históricos de Megas), incluye exactamente UNA Mega principal en el equipo (elige entre las mejores Megas del catálogo: tanto las clásicas consolidadas como las nuevas Megas oficiales del formato). En formatos sin Megas, no incluyas ninguna.
-8. LÍMITE DE MECÁNICAS (REGLA DE 1): Un equipo competitivo oficial solo puede tener UN abusador principal de la mecánica central (1 sola Mega, o 1 solo Cristal Z, o 1 solo Gigamax/Dynamax). No satures el equipo.
+7. MEGAS Y FORMAS: Elige SOLO especies y Megas que aparezcan en el CATÁLOGO DISPONIBLE EN ESTE FORMATO. {mega_block}
+8. LÍMITE DE MECÁNICAS (Z / DYNAMAX): un equipo oficial solo puede tener UN abusador principal de Cristal Z o de Gigamax/Dynamax. No satures el equipo con estas mecánicas. (La regla de Megas es la del punto 7.)
 9. GIGAMAX (GEN 8): NO añadas el sufijo "-Gmax" a ningún nombre: usa siempre el nombre base. Si el usuario pide un atacante Gigamax, elige una especie que tenga forma Gigamax (p. ej. Charizard, Lapras, Rillaboom, Toxtricity, Urshifu); el motor marca el Gigamax automáticamente.
 10. PEDIDOS META / COMPETITIVOS Y CORES SINÉRGICOS:
 - Si el usuario pide un equipo "meta", "competitivo", "óptimo", "torneo", o si su solicitud es abierta/general: DEBES priorizar las especies mejor posicionadas del CATÁLOGO META RECOMENDADO (las que aparecen con mayor porcentaje de uso como [TOP META ...] o encabezan la lista).
@@ -34,6 +34,62 @@ DIRECTIVAS INMUTABLES:
 
 CATÁLOGO DISPONIBLE EN ESTE FORMATO:
 {format_filtered_context}
+"""
+
+SYSTEM_REFERENCE_TEAM_PROMPT = """
+Eres un analista de torneos de Pokémon (VGC y Smogon) con memoria precisa de equipos reales de campeones, finalistas, regionales, mundiales y arquetipos con nombre propio (p. ej. "TailRoom Miraidon").
+
+PEDIDO DEL JUGADOR: "{user_request}"
+FORMATO ELEGIDO EN LA APP: {format_name}  ({bring_rule})
+
+TAREA: identifica el equipo real y devuelve sus 6 Pokémon. Sirve cualquier equipo conocido: campeones y finalistas de torneos, equipos de jugadores reconocidos, equipos populares o "de moda" de una temporada, o arquetipos con nombre propio (p. ej. "TailRoom Miraidon", Psyspam, Rain, Sun). Si el pedido es un arquetipo o un "equipo popular" sin más datos, devuelve el equipo más representativo y jugado de ese arquetipo o de la época del formato elegido, solo si lo conoces con certeza.
+
+REGLAS:
+1. NO INVENTES. Si no recuerdas con certeza los 6 Pokémon del equipo pedido (jugador, evento y año), responde "found": false. Es preferible admitir que no lo sabes a fabricar un roster.
+2. Usa nombres oficiales en inglés con su forma exacta (Urshifu-Rapid-Strike, Landorus-Therian, Ogerpon-Wellspring, Charizard-Mega-Y, Kangaskhan-Mega). Si el equipo llevaba una Mega, escribe la Mega.
+3. Devuelve el equipo TAL COMO FUE JUGADO, aunque su generación o reglamento no coincida con el formato elegido: el motor valida después qué es legal. No lo adaptes tú.
+4. "confidence": "high" si recuerdas los 6 con certeza, "medium" si dudas de 1 o 2, "low" si es una reconstrucción aproximada. Con "low", pon "found": false.
+5. "source": describe de dónde sale (evento, año, jugador o arquetipo) en una frase corta.
+
+Responde ÚNICAMENTE con JSON válido:
+{{
+  "found": true,
+  "confidence": "high",
+  "source": "<evento, año y jugador, o nombre del arquetipo>",
+  "species": ["Pokemon1", "Pokemon2", "Pokemon3", "Pokemon4", "Pokemon5", "Pokemon6"]
+}}
+"""
+
+SYSTEM_WEB_TEAM_PROMPT = """
+Eres un investigador de Pokémon competitivo (VGC y Smogon). Tienes BÚSQUEDA WEB: úsala para encontrar el equipo que pide el jugador. No respondas de memoria.
+
+PEDIDO DEL JUGADOR: "{user_request}"
+FORMATO ELEGIDO EN LA APP: {format_name}  ({bring_rule})
+
+QUÉ BUSCAR (cualquiera de estos casos):
+- Equipo de un campeón, finalista o jugador en un torneo (mundial, regional, internacional, nacional...).
+- Un equipo o núcleo con nombre en la comunidad ("Big 6", TailRoom Miraidon, Psyspam, etc.): el más usado o más citado en ESE formato/temporada.
+- "El equipo popular / meta" del formato: el equipo más usado según estadísticas o resultados de torneos.
+Prefiere fuentes primarias: Pokepaste, Limitless VGC, Victory Road, Nimbasa City Post, Smogon, Pikalytics, Bulbapedia, Serebii, pokemon.com.
+
+REGLAS:
+1. NO INVENTES. Si tras buscar no encuentras el equipo con claridad, responde "found": false.
+2. Nombres oficiales en inglés con la forma exacta (Urshifu-Rapid-Strike, Landorus-Therian, Ogerpon-Hearthflame, Calyrex-Ice, Charizard-Mega-Y). Si el equipo usó una Mega, escribe la Mega.
+3. Devuelve el equipo TAL COMO FUE JUGADO o definido en la fuente, aunque no coincida con el formato elegido: el motor valida después qué es legal.
+4. Si el nombre del pedido es ambiguo (p. ej. "Big 6" se define distinto según la fuente), usa la definición más citada para ESE formato y explícala en "definition".
+5. "exact": true solo si la fuente lista el roster completo; false si es una aproximación (p. ej. los más usados).
+6. "sources": URLs reales que consultaste.
+
+Responde ÚNICAMENTE con JSON válido (sin texto fuera del JSON):
+{{
+  "found": true,
+  "confidence": "high",
+  "exact": true,
+  "source": "<evento, año y jugador, o nombre del equipo/arquetipo>",
+  "definition": "<cómo define la fuente este equipo, o cadena vacía>",
+  "sources": ["https://..."],
+  "species": ["Pokemon1", "Pokemon2", "Pokemon3", "Pokemon4", "Pokemon5", "Pokemon6"]
+}}
 """
 
 SYSTEM_TACTICIAN_PROMPT = """
@@ -100,3 +156,16 @@ def language_rule(lang: str) -> str:
         "(ej. escribe 'Ataque' y no 'Attack', 'Bola Sombra' en vez de 'Shadow Ball', 'Restos' en vez de 'Leftovers'). "
         "Mantén en inglés ÚNICAMENTE los roles y términos competitivos (Lead, Wallbreaker, Sweeper, Setup)."
     )
+
+
+def mega_rule_text(allow_megas: bool, rule_max: int, bring_n: int, wants_two: bool = False) -> str:
+    """Bloque de reglas de Megas para el selector, según lo que permite el formato (nunca más de lo legal)."""
+    if not allow_megas:
+        return "Este formato NO permite Megas: no incluyas ninguna."
+    if rule_max <= 1:
+        return "Este formato permite UNA sola Mega por equipo: incluye exactamente UNA, la mejor del catálogo (clásicas consolidadas o nuevas oficiales del formato)."
+    two = (" El jugador pidió 2 Megas: inclúyelas." if wants_two else
+           " Por defecto incluye 1; incluye una SEGUNDA Mega solo si el pedido o el equipo de referencia la usa, "
+           "o si aporta una cobertura distinta a la primera (otro tipo de ataque, otro rol o compatibilidad con otro clima/campo).")
+    return (f"Este formato permite llevar varias Megas en el equipo, pero SOLO UNA evoluciona por combate y en la partida se eligen {bring_n} de 6. "
+            f"Máximo 2 Megas.{two} Cada Mega necesita su Megapiedra y no pueden compartir objeto; no repitas el mismo rol o tipo en ambas.")
